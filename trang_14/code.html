@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"primary-fixed":"#d1e4ff","error":"#ba1a1a","surface-variant":"#dbe1ff","tertiary-fixed":"#ffdea6","surface-container-low":"#f2f3ff","background":"#faf8ff","surface-container":"#ebedff","primary-container":"#1966b8","secondary-fixed-dim":"#bbc3ff","on-error-container":"#93000a","on-secondary-fixed":"#000e5e","outline":"#717882","tertiary-container":"#946a00","secondary-fixed":"#dfe0ff","error-container":"#ffdad6","tertiary":"#755300","secondary":"#4957ae","on-background":"#111a36","on-surface":"#111a36","on-tertiary-fixed-variant":"#5e4200","surface-tint":"#0061a2","surface":"#faf8ff","on-tertiary":"#ffffff","on-primary-fixed-variant":"#00497c","on-secondary":"#ffffff","inverse-surface":"#262f4c","on-error":"#ffffff","outline-variant":"#c0c7d2","primary":"#1966b8","surface-dim":"#d0d9fe","secondary-container":"#94a2ff","on-secondary-fixed-variant":"#303e95","surface-container-high":"#e3e7ff","inverse-primary":"#9dcaff","on-tertiary-fixed":"#271900","inverse-on-surface":"#eff0ff","on-primary-container":"#f5f7ff","primary-fixed-dim":"#9dcaff","on-secondary-container":"#26348b","on-tertiary-container":"#fff6ec","surface-container-highest":"#dbe1ff","surface-bright":"#faf8ff","on-primary-fixed":"#001d36","on-primary":"#ffffff","on-surface-variant":"#414751","surface-container-lowest":"#ffffff","tertiary-fixed-dim":"#ffbb16"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-mobile":"1rem","space-xl":"2.5rem","space-xs":"0.25rem","space-md":"1rem","space-lg":"1.5rem","gutter-mobile":"1rem","gutter":"1.5rem","space-sm":"0.5rem","margin":"2rem"},"fontFamily":{"title-md":["Be Vietnam Pro"],"body-md":["Be Vietnam Pro"],"body-sm":["Be Vietnam Pro"],"body-lg":["Be Vietnam Pro"],"caption":["Be Vietnam Pro"],"headline-sm":["Be Vietnam Pro"],"headline-lg-mobile":["Be Vietnam Pro"],"headline-xl-mobile":["Be Vietnam Pro"],"label-eyebrow":["Be Vietnam Pro"],"headline-lg":["Be Vietnam Pro"],"headline-md":["Be Vietnam Pro"],"label-button":["Be Vietnam Pro"],"headline-xl":["Be Vietnam Pro"]},"fontSize":{"title-md":["16px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"caption":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"500"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"800"}],"headline-lg-mobile":["28px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"900"}],"headline-xl-mobile":["36px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"900"}],"label-eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.25em","fontWeight":"800"}],"headline-lg":["40px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"900"}],"headline-md":["28px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"900"}],"label-button":["14px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"700"}],"headline-xl":["56px",{"lineHeight":"60px","letterSpacing":"-0.025em","fontWeight":"900"}]}}}}</script></head><body class="bg-[#faf8ff] font-body-md text-body-md text-[#111a36]">
+<style class="c83-hf-style">.c83-nav a:hover,.c83-foot a:hover{color:#FDB913 !important}</style>
+<!-- ===== C83 GROUP HEADER (chèn từ c83group.vn) ===== -->
+<header class="c83-site-header" style="font-family:'Be Vietnam Pro',Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#1966B8 0%,#222A8C 100%);color:#F9FAFB">
+<div style="border-bottom:1px solid rgba(255,255,255,0.1)">
+<div style="max-width:1320px;margin:0 auto;padding:0 24px;min-height:36px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;font-size:12px;color:rgba(255,255,255,0.9)">
+<span>Connect &ndash; Construct &ndash; Capitalize</span>
+<div class="c83-nav" style="display:flex;align-items:center;gap:20px">
+<a href="tel:1900633483" style="color:rgba(255,255,255,0.9);text-decoration:none;display:inline-flex;align-items:center;gap:6px"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>1900 633 483</a>
+<a href="mailto:info@c83group.vn" style="color:rgba(255,255,255,0.9);text-decoration:none">info@c83group.vn</a>
+<button type="button" style="background:none;border:0;color:rgba(255,255,255,0.9);font:inherit;display:inline-flex;align-items:center;gap:4px;cursor:pointer;padding:0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>VN | EN</button>
+</div>
+</div>
+</div>
+<div style="max-width:1320px;margin:0 auto;padding:0 24px;min-height:80px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+<a href="#" style="display:block;width:158px;height:48px"><img src="../assets/c83-logo.png" alt="C83 Group" style="width:100%;height:100%;object-fit:contain;display:block"></a>
+<nav class="c83-nav" aria-label="Điều hướng chính" style="display:flex;flex-wrap:wrap;align-items:center;gap:4px">
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Về tập đoàn<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Đơn vị thành viên<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">ESG<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Lĩnh vực<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Năng lực<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Tin tức</a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Tuyển dụng</a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Liên hệ</a>
+</nav>
+<a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 18px;border-radius:8px;background:linear-gradient(135deg,#FDB913 0%,#F39C12 100%);color:#141A3A;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 12px 30px -12px rgba(243,156,18,0.6)">Tư vấn ngay</a>
+</div>
+</header>
+<!-- ===== /C83 GROUP HEADER ===== -->
+<main class="w-full bg-[#faf8ff]"><!-- OPTION 2: BLUEPRINT & ENGINEERING WORKBENCH LAYOUT (NO HEADER, NO FOOTER) --><!-- 1. TOP ENGINEERING HEADER BAR --><section class="w-full bg-[#1b2440] text-white border-b border-[#2b3960] py-2.5 px-4 shadow-sm">
+<div class="max-w-[1320px] mx-auto px-6 flex flex-col xl:flex-row xl:items-center justify-between gap-3">
+<!-- Left: Breadcrumb & Engineering SKU Badge -->
+<div class="flex items-center flex-wrap gap-2 text-xs">
+<nav aria-label="Breadcrumb" class="flex items-center gap-1.5 text-slate-300">
+<a class="hover:text-[#fdb913] transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[15px]">home</span>
+<span>C83 Tech</span>
+</a>
+<span class="text-slate-500">/</span>
+<a class="hover:text-[#fdb913] transition-colors" href="#">Hệ Mặt dựng Unitized</a>
+<span class="text-slate-500">/</span>
+<span class="text-slate-400 font-semibold">C83-AL902</span>
+</nav>
+<span class="h-3.5 w-px bg-slate-600 hidden sm:block"></span>
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="bg-[#1966b8] text-white font-mono font-bold text-[11px] px-2 py-0.5 rounded tracking-wide flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">qr_code_2</span> SKU: C83-AL902
+        </span>
+<span class="bg-[#26345e] text-[#fdb913] font-bold text-[10px] px-2 py-0.5 rounded border border-[#fdb913]/30 tracking-wider uppercase">
+          JIS H4100 • ASTM B221 • TIÊU CHUẨN MẶT DỰNG UNITIZED
+        </span>
+<span class="bg-emerald-950/80 text-emerald-400 font-bold text-[10px] px-1.5 py-0.5 rounded border border-emerald-500/30 flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">verified</span> SẴN KHO 15.000m
+        </span>
+</div>
+</div>
+<!-- Right: Engineering Quick Action Buttons -->
+<div class="flex items-center gap-2 self-start xl:self-auto shrink-0">
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-[#2b3960] hover:bg-[#1966b8] text-white text-xs font-semibold transition-all shadow-sm group" type="button">
+<span class="material-symbols-outlined text-[16px] text-[#fdb913] group-hover:text-white transition-colors">download_for_offline</span>
+<span>Tải trọn bộ CAD / BIM (.dwg / .rvt)</span>
+</button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-gradient-to-r from-[#fdb913] to-[#f39c12] text-[#1b2440] hover:brightness-110 text-xs font-black transition-all shadow-sm" onclick="scrollToRFQ()" type="button">
+<span class="material-symbols-outlined text-[16px]">request_quote</span>
+<span>Báo giá BOQ</span>
+</button>
+<button class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded bg-[#26345e] text-slate-300 hover:text-white text-xs font-medium transition-colors" type="button">
+<span class="material-symbols-outlined text-[15px]">print</span>
+<span class="hidden sm:inline">In Datasheet</span>
+</button>
+</div>
+</div>
+</section><!-- 2. MAIN ENGINEERING WORKBENCH: 3-COLUMN SPLIT --><section class="w-full py-5 px-4 md:px-6">
+<div class="max-w-[1320px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+<!-- CỘT 1 (LG: 4 COLS): MEDIA & BẢN VẼ BLUEPRINT / MẶT CẮT KỸ THUẬT -->
+<div class="lg:col-span-4 flex flex-col gap-3.5">
+<!-- Blueprint & Spec CAD Interactive Frame -->
+<div class="bg-white rounded-lg border border-[#dbe1ff] p-3 shadow-sm flex flex-col gap-2.5">
+<!-- Blueprint Header with Mode Toggle -->
+<div class="flex items-center justify-between pb-2 border-b border-[#ebedff]">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[#1966b8] text-[18px]">architecture</span>
+<span class="font-title-md text-xs font-bold uppercase tracking-wider text-[#1b2440]" id="view-mode-title">Mặt cắt kỹ thuật (CAD 2D)</span>
+</div>
+<!-- View switcher toggle -->
+<div class="flex bg-[#ebedff] rounded p-0.5 text-[11px] font-semibold">
+<button class="px-2 py-0.5 rounded bg-[#1966b8] text-white shadow-xs" id="mode-btn-cad" onclick="switchVisualMode('cad')" type="button">CAD</button>
+<button class="px-2 py-0.5 rounded text-[#414751] hover:text-[#111a36]" id="mode-btn-photo" onclick="switchVisualMode('photo')" type="button">Ảnh mẫu</button>
+</div>
+</div>
+<!-- Main Display Canvas with Grid Blueprint Background -->
+<div class="relative w-full aspect-[4/3] rounded bg-[#0e172e] overflow-hidden border border-[#2b3960] flex items-center justify-center group" id="blueprint-canvas-container">
+<!-- CAD Technical Blueprint overlay grid lines -->
+<div class="absolute inset-0 opacity-20 pointer-events-none" style="background-image: linear-gradient(#1966b8 1px, transparent 1px), linear-gradient(90deg, #1966b8 1px, transparent 1px); background-size: 20px 20px;"></div>
+<!-- Dimensions Rulers Overlay -->
+<div class="absolute top-1 left-2 text-[10px] font-mono text-[#fdb913] bg-[#1b2440]/80 px-1.5 py-0.5 rounded z-10 border border-[#fdb913]/30">
+            W: 83.0mm × H: 150.0mm (T: 2.2-3.0mm)
+          </div>
+<div class="absolute bottom-1.5 left-2 text-[9px] font-mono text-cyan-300 bg-[#1b2440]/80 px-1.5 py-0.5 rounded z-10">
+            Mặt cắt đùn ép C83 • Tỉ lệ 1:1
+          </div>
+<!-- Main Image -->
+<img alt="Bản vẽ mặt cắt kỹ thuật C83-AL902 nhôm định hình hệ mặt dựng" class="w-full h-full object-contain p-2 transition-transform duration-300 group-hover:scale-105" id="main-workbench-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6VMXoAbfS-TpF4_rgVw9ldeUDeBhOTH357PgxrCl3zdJXEiH3TaL_ZV9HwxAfjGyZa_w2s9dpMqJeLreVyGgMN-NtiCu2Ago91mSRKJibUBqO8pUcECvOD1VZB-SJenMu8-bTkzQvNviKmMc8EaH54rY9DIg87vBnayaVfciHVc8NfBsatrF506xBPUq4W8jmPyebk0QFDg5_8gKrK34Zms9cSS7MC4JdDBVtxt2v"/>
+<!-- Zoom & Download Icon Trigger -->
+<div class="absolute top-2 right-2 flex flex-col gap-1 z-10">
+<button class="w-7 h-7 rounded bg-[#1b2440]/90 text-white hover:text-[#fdb913] flex items-center justify-center text-xs shadow" title="Phóng to" type="button">
+<span class="material-symbols-outlined text-[16px]">zoom_in</span>
+</button>
+<button class="w-7 h-7 rounded bg-[#1b2440]/90 text-white hover:text-[#fdb913] flex items-center justify-center text-xs shadow" title="Xem lưới tọa độ CAD" type="button">
+<span class="material-symbols-outlined text-[16px]">grid_4x4</span>
+</button>
+</div>
+</div>
+<!-- 4 Multi-Angle Engineering Thumbnails -->
+<div class="grid grid-cols-4 gap-2">
+<!-- Thumb 1: CAD Blueprint -->
+<button class="thumb-slot aspect-square rounded border-2 border-[#1966b8] bg-[#0e172e] p-0.5 overflow-hidden transition-all text-left group relative" onclick="selectWorkbenchMedia(this, 'https://lh3.googleusercontent.com/aida-public/AB6AXuC6VMXoAbfS-TpF4_rgVw9ldeUDeBhOTH357PgxrCl3zdJXEiH3TaL_ZV9HwxAfjGyZa_w2s9dpMqJeLreVyGgMN-NtiCu2Ago91mSRKJibUBqO8pUcECvOD1VZB-SJenMu8-bTkzQvNviKmMc8EaH54rY9DIg87vBnayaVfciHVc8NfBsatrF506xBPUq4W8jmPyebk0QFDg5_8gKrK34Zms9cSS7MC4JdDBVtxt2v', 'Bản vẽ mặt cắt CAD 2D')" type="button">
+<img alt="Bản vẽ mặt cắt 2D" class="w-full h-full object-cover rounded" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6VMXoAbfS-TpF4_rgVw9ldeUDeBhOTH357PgxrCl3zdJXEiH3TaL_ZV9HwxAfjGyZa_w2s9dpMqJeLreVyGgMN-NtiCu2Ago91mSRKJibUBqO8pUcECvOD1VZB-SJenMu8-bTkzQvNviKmMc8EaH54rY9DIg87vBnayaVfciHVc8NfBsatrF506xBPUq4W8jmPyebk0QFDg5_8gKrK34Zms9cSS7MC4JdDBVtxt2v"/>
+<span class="absolute bottom-0 inset-x-0 bg-black/75 text-[9px] text-white text-center font-mono py-0.2">CAD 2D</span>
+</button>
+<!-- Thumb 2: Profile Photo -->
+<button class="thumb-slot aspect-square rounded border border-[#dbe1ff] bg-slate-100 p-0.5 overflow-hidden hover:border-[#1966b8] transition-all text-left relative" onclick="selectWorkbenchMedia(this, 'https://lh3.googleusercontent.com/aida-public/AB6AXuB1sjlqmvbxymB_H5WL9FsjwBwIX22vD4xjCKq4fseLOGqYJQ0GzgWGd2SKaZLvlnfY2d7CuzqMp6Gvsaxutd9u9wffZO4receA8QsVyr5Nn370z2PLBKqp_K8vAiiuKftM68GyKMdlBzHIcSozLHqxT1UUAzDFL4ctgwj36-vhFO7TPByy9Wdd9C_6c3z0im13d47mUGavgTQ_mdyqWHV30N9ar4svfhqL_VXJv9v7', 'Ảnh chụp mẫu profile thực tế')" type="button">
+<img alt="Mẫu thanh nhôm thực tế" class="w-full h-full object-cover rounded" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1sjlqmvbxymB_H5WL9FsjwBwIX22vD4xjCKq4fseLOGqYJQ0GzgWGd2SKaZLvlnfY2d7CuzqMp6Gvsaxutd9u9wffZO4receA8QsVyr5Nn370z2PLBKqp_K8vAiiuKftM68GyKMdlBzHIcSozLHqxT1UUAzDFL4ctgwj36-vhFO7TPByy9Wdd9C_6c3z0im13d47mUGavgTQ_mdyqWHV30N9ar4svfhqL_VXJv9v7"/>
+<span class="absolute bottom-0 inset-x-0 bg-black/75 text-[9px] text-white text-center font-mono py-0.2">Profile</span>
+</button>
+<!-- Thumb 3: Anodized Micro surface -->
+<button class="thumb-slot aspect-square rounded border border-[#dbe1ff] bg-slate-100 p-0.5 overflow-hidden hover:border-[#1966b8] transition-all text-left relative" onclick="selectWorkbenchMedia(this, 'https://lh3.googleusercontent.com/aida-public/AB6AXuC9T4jcSmQCdk_G389MW-jZ_1BIxosrGFIP_v-e2yer-cXcCahZbzCJP9a4OFq_Qq10BEPO5PiTzUtymLnAHLw-W39HV0A6uYiYLedyRxlzx7RvmhWd_rIJe8co12vCcVgbUNCU3fEfT7GntSX88JHRz0pzEuSpPiQaInTSgVZq02aP4-2DaBmlWPrVEhx9qoyg41iH4iL_ZUvuIgoCABKyJz6UiJG_Xp8gFgDJXOox', 'Lớp mạ Anodized hiển vi')" type="button">
+<img alt="Lớp mạ Anodized hiển vi" class="w-full h-full object-cover rounded" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9T4jcSmQCdk_G389MW-jZ_1BIxosrGFIP_v-e2yer-cXcCahZbzCJP9a4OFq_Qq10BEPO5PiTzUtymLnAHLw-W39HV0A6uYiYLedyRxlzx7RvmhWd_rIJe8co12vCcVgbUNCU3fEfT7GntSX88JHRz0pzEuSpPiQaInTSgVZq02aP4-2DaBmlWPrVEhx9qoyg41iH4iL_ZUvuIgoCABKyJz6UiJG_Xp8gFgDJXOox"/>
+<span class="absolute bottom-0 inset-x-0 bg-black/75 text-[9px] text-white text-center font-mono py-0.2">Anodized</span>
+</button>
+<!-- Thumb 4: Mockup on Unitized Facade -->
+<button class="thumb-slot aspect-square rounded border border-[#dbe1ff] bg-slate-100 p-0.5 overflow-hidden hover:border-[#1966b8] transition-all text-left relative" onclick="selectWorkbenchMedia(this, 'https://lh3.googleusercontent.com/aida-public/AB6AXuBdCWgi6dHxQkuOFiHaGjPsRQVxX8J9KenAuMaqtibsKGm81PJb_tB-H_T-O3MwScsoZpcd-xRe1gVAAqG5O_TiXysMw35ZHEX4TAKCJK7WPcdgCnOFqIvBnfxeTlkEvF6UP_jjMyG6HZs3xvNilRWTP9RFY0vD1AhP7_gxaoST6hsbhOr5xFk1RgKt9qsRTbhjjqTqJP4WCizACXKnPfPNrWRTtyg8bU9NEiTWwaQI', 'Mô phỏng lắp đặt trên vách kính Unitized')" type="button">
+<img alt="Lắp đặt trên vách kính Unitized" class="w-full h-full object-cover rounded" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdCWgi6dHxQkuOFiHaGjPsRQVxX8J9KenAuMaqtibsKGm81PJb_tB-H_T-O3MwScsoZpcd-xRe1gVAAqG5O_TiXysMw35ZHEX4TAKCJK7WPcdgCnOFqIvBnfxeTlkEvF6UP_jjMyG6HZs3xvNilRWTP9RFY0vD1AhP7_gxaoST6hsbhOr5xFk1RgKt9qsRTbhjjqTqJP4WCizACXKnPfPNrWRTtyg8bU9NEiTWwaQI"/>
+<span class="absolute bottom-0 inset-x-0 bg-black/75 text-[9px] text-white text-center font-mono py-0.2">Lắp đặt</span>
+</button>
+</div>
+</div>
+<!-- Quick CO/CQ Verification Box with QR & Factory Stamp -->
+<div class="bg-white rounded-lg border border-[#dbe1ff] p-3 shadow-sm flex items-center justify-between gap-3">
+<div class="flex items-center gap-2.5">
+<div class="w-12 h-12 rounded bg-[#1b2440] text-white flex flex-col items-center justify-center font-mono text-[9px] border border-[#2b3960] shrink-0 p-1">
+<span class="material-symbols-outlined text-[20px] text-[#fdb913]">qr_code_scanner</span>
+<span>QUATEST 3</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-title-md text-xs font-bold text-[#1b2440]">Chứng thư CO/CQ Lô hàng</span>
+<span class="material-symbols-outlined text-emerald-600 text-[14px]">verified</span>
+</div>
+<p class="text-[11px] text-[#414751]">Số hiệu: Q3-2025/AL-902-HCM • Phôi A6063</p>
+<span class="text-[10px] text-[#1966b8] font-semibold">Quét QR tra cứu phiếu thử nghiệm điện tử</span>
+</div>
+</div>
+<button class="px-2.5 py-1 rounded bg-[#ebedff] hover:bg-[#1966b8] hover:text-white text-[#1966b8] text-xs font-bold transition-colors shrink-0" type="button">
+          Xem PDF
+        </button>
+</div>
+<!-- Production Plant & Packaging Info -->
+<div class="bg-[#f2f3ff] rounded-lg border border-[#ebedff] p-3 text-xs flex flex-col gap-1.5 text-[#414751]">
+<div class="flex items-center justify-between text-[#1b2440] font-bold">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px] text-[#1966b8]">factory</span> C83 Billet Extrusion Plant #02</span>
+<span class="text-[11px] text-emerald-700 bg-emerald-100 px-1.5 py-0.2 rounded">ISO 9001:2015</span>
+</div>
+<p class="text-[11px] leading-relaxed">Đóng kiện: Pallet gỗ chuyên dụng bọc màng co PE 3 lớp, chống xước góc, kèm tem mã vạch truy xuất nguồn gốc từng bó cây.</p>
+</div>
+</div>
+<!-- CỘT 2 (LG: 5 COLS): THÔNG SỐ KỸ THUẬT SÂU & TÍNH NĂNG CHỊU LỰC -->
+<div class="lg:col-span-5 flex flex-col gap-3.5">
+<!-- Product Title & Sector Breadcrumb -->
+<div class="bg-white rounded-lg border border-[#dbe1ff] p-4 shadow-sm flex flex-col gap-2">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="bg-[#1966b8]/10 text-[#1966b8] font-bold text-[11px] px-2.5 py-0.5 rounded-full">
+            Mặt Dựng Unitized &amp; Stick
+          </span>
+<span class="bg-amber-100 text-amber-800 font-bold text-[11px] px-2 py-0.5 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">shield</span> Bảo hành mạ 15 năm
+          </span>
+<span class="text-[11px] text-[#717882]">Đã cấp cho 48+ tòa tháp</span>
+</div>
+<h1 class="font-headline-sm text-lg md:text-xl font-black text-[#1b2440] leading-snug">
+          Thanh nhôm định hình cao cấp Anodized hệ mặt dựng C83-AL902
+        </h1>
+<p class="text-xs text-[#414751] leading-relaxed">
+          Profile nhôm đùn ép tải trọng cao thiết kế ngàm liên kết kép, tối ưu khả năng triệt tiêu ứng suất gió và cách nhiệt. Phù hợp tuyệt đối cho hệ vách kính giấu đố và nổi đố công trình ven biển.
+        </p>
+</div>
+<!-- Engineering Spec Dashboard (Chỉ số cơ lý tính chi tiết) -->
+<div class="bg-white rounded-lg border border-[#dbe1ff] p-3.5 shadow-sm flex flex-col gap-2.5">
+<div class="flex items-center justify-between border-b border-[#ebedff] pb-2">
+<span class="font-title-md text-xs font-bold uppercase tracking-wider text-[#1b2440] flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-[#1966b8]">speed</span>
+            Bảng chỉ số cơ lý tính (Engineering Dashboard)
+          </span>
+<span class="text-[10px] font-mono text-[#717882]">JIS H4100 / Quatest 3</span>
+</div>
+<!-- 6 Metrics Grid Tiles -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+<!-- Metric 1 -->
+<div class="p-2.5 rounded bg-[#f2f3ff] border border-[#ebedff] flex flex-col">
+<span class="text-[10px] text-[#717882] font-semibold uppercase">Mác hợp kim</span>
+<span class="font-bold text-xs text-[#1b2440] mt-0.5">6063-T6 / 6061-T6</span>
+<span class="text-[10px] text-[#1966b8]">Billet A đồng nhất</span>
+</div>
+<!-- Metric 2 -->
+<div class="p-2.5 rounded bg-[#f2f3ff] border border-[#ebedff] flex flex-col">
+<span class="text-[10px] text-[#717882] font-semibold uppercase">Độ cứng bề mặt</span>
+<span class="font-bold text-xs text-[#1b2440] mt-0.5">Webster ≥ 12 HW</span>
+<span class="text-[10px] text-emerald-600 font-medium">Thực tế: 13.5 HW</span>
+</div>
+<!-- Metric 3 -->
+<div class="p-2.5 rounded bg-[#f2f3ff] border border-[#ebedff] flex flex-col">
+<span class="text-[10px] text-[#717882] font-semibold uppercase">Chiều dài tiêu chuẩn</span>
+<span class="font-bold text-xs text-[#1b2440] mt-0.5">6.0m / cây</span>
+<span class="text-[10px] text-amber-700 font-semibold">Cắt CNC theo BOQ</span>
+</div>
+<!-- Metric 4 -->
+<div class="p-2.5 rounded bg-[#f2f3ff] border border-[#ebedff] flex flex-col">
+<span class="text-[10px] text-[#717882] font-semibold uppercase">Trọng lượng định mức</span>
+<span class="font-bold text-xs text-[#1b2440] mt-0.5">2.85 kg/m</span>
+<span class="text-[10px] text-[#717882]">Dung sai ± 5%</span>
+</div>
+<!-- Metric 5 -->
+<div class="p-2.5 rounded bg-[#f2f3ff] border border-[#ebedff] flex flex-col">
+<span class="text-[10px] text-[#717882] font-semibold uppercase">Chịu bão gió</span>
+<span class="font-bold text-xs text-[#1b2440] mt-0.5">ASTM E330 Cấp 14</span>
+<span class="text-[10px] text-blue-600 font-medium">Áp lực: 3.200 Pa</span>
+</div>
+<!-- Metric 6 -->
+<div class="p-2.5 rounded bg-[#f2f3ff] border border-[#ebedff] flex flex-col">
+<span class="text-[10px] text-[#717882] font-semibold uppercase">Kháng sương muối</span>
+<span class="font-bold text-xs text-[#1b2440] mt-0.5">3.000h NSS</span>
+<span class="text-[10px] text-emerald-600 font-medium">ED Class 1 (≥ 15µm)</span>
+</div>
+</div>
+</div>
+<!-- Mode Switcher Tabs: Mua Thương Mại vs Đặt Hàng Dự Án / Gia Công -->
+<div class="bg-white rounded-lg border border-[#dbe1ff] overflow-hidden shadow-sm flex flex-col">
+<!-- Tab Bar -->
+<div class="grid grid-cols-2 bg-[#ebedff] p-1 gap-1">
+<button class="py-2 px-3 rounded text-xs font-bold text-center transition-all bg-white text-[#1966b8] shadow-xs flex items-center justify-center gap-1.5" id="tab-workbench-comm" onclick="switchWorkbenchTab('comm')" type="button">
+<span class="material-symbols-outlined text-[16px]">inventory_2</span>
+<span>Chế độ: Mua sẵn kho (Thương mại)</span>
+</button>
+<button class="py-2 px-3 rounded text-xs font-bold text-center transition-all text-[#414751] hover:text-[#111a36] flex items-center justify-center gap-1.5" id="tab-workbench-proj" onclick="switchWorkbenchTab('proj')" type="button">
+<span class="material-symbols-outlined text-[16px]">precision_manufacturing</span>
+<span>Chế độ: Dự án &amp; Gia công CNC</span>
+</button>
+</div>
+<!-- Mode Content 1: Sẵn Kho -->
+<div class="p-3.5 flex flex-col gap-2.5 text-xs" id="pane-workbench-comm">
+<div class="flex items-center justify-between bg-emerald-50 text-emerald-900 border border-emerald-200 rounded p-2">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-emerald-600 text-[18px]">check_circle</span>
+<span class="font-bold">Hàng sẵn kho Tổng Tân Uyên: 15.000m (2.500 cây)</span>
+</div>
+<span class="text-[11px] font-mono text-emerald-700 bg-white px-2 py-0.5 rounded border border-emerald-300">Giao 24h</span>
+</div>
+<p class="text-[#414751] leading-relaxed">
+            Áp dụng cho quy cách nguyên cây dài 6.0m hoàn thiện màu Anodized Champagne mờ hoặc Niken Xám. Xuất xưởng kèm chứng chỉ xuất xứ và biên bản giao nhận tiêu chuẩn.
+          </p>
+<div class="flex items-center gap-3 pt-1 text-[11px] text-[#717882]">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px] text-[#1966b8]">local_shipping</span> Vận chuyển xe cẩu tận công trình</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px] text-[#1966b8]">receipt_long</span> Xuất Hóa đơn VAT điện tử</span>
+</div>
+</div>
+<!-- Mode Content 2: Dự án & Gia công CNC -->
+<div class="p-3.5 hidden flex flex-col gap-2.5 text-xs" id="pane-workbench-proj">
+<div class="bg-amber-50 text-amber-900 border border-amber-200 rounded p-2 flex items-start gap-2">
+<span class="material-symbols-outlined text-amber-600 text-[18px] shrink-0 mt-0.5">construction</span>
+<div>
+<span class="font-bold block">Gia công định hình theo BOQ &amp; Bản vẽ Shopdrawing</span>
+<span class="text-[11px] text-amber-800">Dung sai cắt CNC ± 0.5mm, phay ngàm khóa tự động, đột lỗ thoát nước và đục rãnh ke góc.</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2 text-[11px]">
+<div class="p-2 bg-[#f2f3ff] rounded">
+<span class="font-bold text-[#1b2440] block">Thời gian gia công:</span>
+<span class="text-[#414751]">3 - 5 ngày tùy khối lượng đơn hàng</span>
+</div>
+<div class="p-2 bg-[#f2f3ff] rounded">
+<span class="font-bold text-[#1b2440] block">Chính sách bảo hộ thầu:</span>
+<span class="text-[#1966b8] font-semibold">Giữ giá cố định 45 ngày dự thầu</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- CỘT 3 (LG: 3 COLS): BẢNG TÍNH DỰ TOÁN & HÀNH ĐỘNG ĐẶT HÀNG (STICKY CALCULATOR) -->
+<div class="lg:col-span-3 flex flex-col gap-3.5 sticky top-3">
+<div class="bg-white rounded-lg border-2 border-[#1966b8]/30 shadow-md p-4 flex flex-col gap-3.5">
+<!-- Price Display -->
+<div class="flex items-baseline justify-between border-b border-[#ebedff] pb-3">
+<div>
+<span class="text-[10px] text-[#717882] font-bold uppercase tracking-wider block">Đơn giá niêm yết</span>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-sm text-xl font-black text-[#1966b8]">2.450.000&nbsp;₫</span>
+<span class="text-[11px] text-[#414751]">/ cây</span>
+</div>
+</div>
+<span class="bg-[#1966b8]/10 text-[#1966b8] text-[10px] font-bold px-1.5 py-0.5 rounded">
+            Đã gồm VAT 10%
+          </span>
+</div>
+<!-- Sticky BOQ Estimator Calculator (Máy tính dự toán khối lượng) -->
+<div class="bg-[#f2f3ff] rounded-lg p-3 border border-[#ebedff] flex flex-col gap-2.5">
+<div class="flex items-center justify-between text-xs font-bold text-[#1b2440]">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-[#1966b8]">calculate</span>
+              Dự toán khối lượng
+            </span>
+<span class="text-[10px] text-[#717882] font-normal">Chiều dài: 6.0m/cây</span>
+</div>
+<!-- Quantity Stepper Input -->
+<div>
+<label class="block text-[11px] font-medium text-[#414751] mb-1">Số lượng cây dự toán:</label>
+<div class="flex items-center bg-white rounded border border-[#c0c7d2] p-1">
+<button class="w-7 h-7 rounded bg-[#ebedff] text-[#1b2440] hover:bg-[#dbe1ff] flex items-center justify-center font-bold text-xs" onclick="calcQty(-1)" type="button">-</button>
+<input class="w-full text-center font-bold text-xs text-[#111a36] border-0 focus:ring-0 p-0" id="calc-qty-input" min="1" oninput="recalculateEstimates()" type="number" value="25"/>
+<button class="w-7 h-7 rounded bg-[#ebedff] text-[#1b2440] hover:bg-[#dbe1ff] flex items-center justify-center font-bold text-xs" onclick="calcQty(1)" type="button">+</button>
+</div>
+</div>
+<!-- Live Estimation Breakdown Results -->
+<div class="space-y-1.5 pt-1.5 border-t border-[#ebedff] text-xs">
+<div class="flex justify-between text-[#414751]">
+<span>Tổng chiều dài:</span>
+<span class="font-bold text-[#1b2440]" id="res-total-meters">150.0 mét</span>
+</div>
+<div class="flex justify-between text-[#414751]">
+<span>Tổng khối lượng (2.85kg/m):</span>
+<span class="font-bold text-[#1b2440]" id="res-total-weight">427.5 kg</span>
+</div>
+<div class="flex justify-between text-[#414751]">
+<span>Ước tính số pallet:</span>
+<span class="font-bold text-[#1b2440]" id="res-total-pallets">1 kiện (gỗ)</span>
+</div>
+<div class="flex justify-between pt-1 border-t border-[#ebedff] font-bold text-[#1b2440]">
+<span>Tạm tính thành tiền:</span>
+<span class="text-sm font-black text-[#1966b8]" id="res-total-cost">61.250.000&nbsp;₫</span>
+</div>
+</div>
+</div>
+<!-- Action CTA Buttons -->
+<div class="flex flex-col gap-2 pt-1">
+<!-- Yellow Gold Primary CTA: RFQ -->
+<button class="w-full h-11 rounded-lg bg-gradient-to-r from-[#fdb913] to-[#f39c12] text-[#1b2440] font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5 shadow-md hover:brightness-105 active:scale-[0.98] transition-all" onclick="showRfqModal()" type="button">
+<span class="material-symbols-outlined text-[18px]">assignment_turned_in</span>
+<span>YÊU CẦU BÁO GIÁ DỰ ÁN (RFQ)</span>
+</button>
+<!-- Blue Primary CTA: Thêm vào giỏ hàng -->
+<button class="w-full h-10 rounded-lg bg-[#1966b8] hover:bg-[#1966b8] text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all" type="button">
+<span class="material-symbols-outlined text-[17px]">add_shopping_cart</span>
+<span>THÊM VÀO GIỎ VẬT TƯ</span>
+</button>
+<!-- Secondary CTA: Nhận mẫu thử miễn phí -->
+<button class="w-full h-9 rounded-lg bg-white border border-[#1966b8] text-[#1966b8] hover:bg-[#f2f3ff] font-semibold text-xs flex items-center justify-center gap-1.5 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">inventory</span>
+<span>ĐĂNG KÝ NHẬN MẪU THỬ MIỄN PHÍ</span>
+</button>
+</div>
+<!-- Trust & Commitment Badges -->
+<div class="pt-2 border-t border-[#ebedff] grid grid-cols-2 gap-2 text-[11px] text-[#414751]">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-emerald-600 text-[15px]">timer</span>
+<span>Xuất kho 24h</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[#1966b8] text-[15px]">verified_user</span>
+<span>Quatest 3 đạt chuẩn</span>
+</div>
+</div>
+</div>
+<!-- Engineering Hotline Card -->
+<div class="bg-[#1b2440] text-white rounded-lg p-3 text-xs flex items-center justify-between">
+<div>
+<span class="text-[10px] text-[#fdb913] font-bold block uppercase">Kỹ sư phụ trách mặt dựng</span>
+<span class="font-bold text-sm">1900 8383 • Ext 2</span>
+</div>
+<a class="px-2.5 py-1.5 bg-[#1966b8] hover:bg-sky-500 rounded text-white font-bold flex items-center gap-1 text-[11px]" href="tel:19008383">
+<span class="material-symbols-outlined text-[14px]">call</span> Gọi ngay
+        </a>
+</div>
+</div>
+</div>
+</section><!-- 3. TABBED TECHNICAL ACCORDION / MATRIX --><section class="w-full py-6 px-4 md:px-6 bg-[#f2f3ff] border-t border-[#ebedff]" id="tech-matrix-section">
+<div class="max-w-[1320px] mx-auto px-6 flex flex-col gap-4">
+<!-- Horizontal Tab Header -->
+<div class="flex items-center justify-between flex-wrap gap-3 border-b border-[#c0c7d2]/40 pb-2">
+<div class="flex items-center gap-2 overflow-x-auto">
+<button class="matrix-tab-btn px-4 py-2 rounded-t-md font-bold text-xs flex items-center gap-1.5 transition-all bg-[#1b2440] text-[#fdb913] shadow-xs" id="mat-btn-acc" onclick="switchMatrixTab('acc')" type="button">
+<span class="material-symbols-outlined text-[16px]">build</span>
+<span>Tab 1: Phụ kiện đồng bộ tương thích</span>
+</button>
+<button class="matrix-tab-btn px-4 py-2 rounded-t-md font-bold text-xs flex items-center gap-1.5 transition-all bg-white text-[#414751] hover:text-[#1b2440]" id="mat-btn-proj" onclick="switchMatrixTab('proj')" type="button">
+<span class="material-symbols-outlined text-[16px]">apartment</span>
+<span>Tab 2: Hồ sơ dự án tiêu biểu AL-902</span>
+</button>
+<button class="matrix-tab-btn px-4 py-2 rounded-t-md font-bold text-xs flex items-center gap-1.5 transition-all bg-white text-[#414751] hover:text-[#1b2440]" id="mat-btn-tol" onclick="switchMatrixTab('tol')" type="button">
+<span class="material-symbols-outlined text-[16px]">table_chart</span>
+<span>Tab 3: Bảng tra sai số dung sai đùn ép JIS</span>
+</button>
+</div>
+<span class="text-xs text-[#717882] font-mono hidden md:inline-block">Dữ liệu kỹ thuật cập nhật 2025 • Chuẩn kiểm định C83 QA/QC</span>
+</div>
+<!-- TAB PANE 1: PHỤ KIỆN ĐỒNG BỘ TƯƠNG THÍCH -->
+<div class="p-4 md:p-5 bg-white rounded-lg border border-[#dbe1ff] shadow-sm flex flex-col gap-4" id="mat-pane-acc">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-sm md:text-base font-bold text-[#1b2440]">Hệ sinh thái phụ kiện kết cấu đồng bộ profile C83-AL902</h3>
+<p class="text-xs text-[#717882]">Được thiết kế chính xác theo rãnh gioăng và ngàm khóa cơ học của thanh nhôm mặt dựng</p>
+</div>
+<span class="text-[11px] font-bold text-[#1966b8] bg-[#1966b8]/10 px-2.5 py-1 rounded">100% Khớp dung sai kỹ thuật</span>
+</div>
+<!-- 4 Accessories Grid Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<!-- Item 1: Gioăng EPDM -->
+<div class="rounded-lg border border-[#ebedff] bg-[#faf8ff] p-3 flex flex-col justify-between gap-3 hover:border-[#1966b8] transition-all">
+<div class="flex flex-col gap-2">
+<div class="aspect-[4/3] rounded bg-slate-200 overflow-hidden relative">
+<img alt="Gioăng EPDM kép chịu nhiệt chuyên dụng mặt dựng" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVpmL4EYxMqdvoKj90RVod1hCDbjM2_ek3YOoSa_-U7NuNRqhCelOKjCHafgQvvmSO3-fGDbC62KGozmMAQn7YhlbSrH4h74wq2EAP9cwueuP2xgpaLnTSUFn2QhZ2LS8M3P5X1wetLBpbmhboowYt1TEbbdesyfFAzntouHZiMgnDLGsTemxIPzFJACIqu-ohr7Padr7fZ08VMdr0Y95G6eodBEdekfyAdc_OwrPJ"/>
+<span class="absolute top-1.5 left-1.5 bg-[#1b2440] text-white text-[9px] font-bold px-1.5 py-0.5 rounded">ĐỒNG BỘ 100%</span>
+</div>
+<div>
+<span class="text-[10px] text-[#717882] font-semibold">Đệm làm kín khe kính</span>
+<h4 class="font-bold text-xs text-[#1b2440] line-clamp-2">Gioăng EPDM kép chịu nhiệt chuyên dụng mặt dựng</h4>
+</div>
+</div>
+<div class="pt-2 border-t border-[#ebedff] flex items-center justify-between">
+<span class="text-xs font-bold text-[#1966b8]">18.500&nbsp;₫/m</span>
+<button class="px-2 py-1 bg-white border border-[#1966b8] hover:bg-[#1966b8] hover:text-white text-[#1966b8] rounded text-[11px] font-bold transition-colors" type="button">Thêm</button>
+</div>
+</div>
+<!-- Item 2: Ke góc đúc áp lực -->
+<div class="rounded-lg border border-[#ebedff] bg-[#faf8ff] p-3 flex flex-col justify-between gap-3 hover:border-[#1966b8] transition-all">
+<div class="flex flex-col gap-2">
+<div class="aspect-[4/3] rounded bg-slate-200 overflow-hidden relative">
+<img alt="Ke góc đúc áp lực tiêu chuẩn C83 gia cường ngàm" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjhcBWcICQVmknwpIy5jn9tSXZJTZ6E4FP96yDdxIpLKPIiiqzqLG54pp69aESUnGLLqhhklHqcgoOmlUKk7C71KyDejrzvJ2Jd0X0fcF0O-efBm6JhgRk5qgUYZcpefd4GKx1-2GmkkPDDLwapekf275d1--w-_fXh_5_vRH2MIqYnp2UAg7sBU_1dWCBr1aLCcne59NJYbqH6aj7UksflZN9HXdAniqTD_eYGdEX"/>
+<span class="absolute top-1.5 left-1.5 bg-[#222A8C] text-white text-[9px] font-bold px-1.5 py-0.5 rounded">ĐÚC ÁP LỰC</span>
+</div>
+<div>
+<span class="text-[10px] text-[#717882] font-semibold">Khớp nối đố ngang &amp; đứng</span>
+<h4 class="font-bold text-xs text-[#1b2440] line-clamp-2">Ke góc đúc áp lực tiêu chuẩn C83 gia cường ngàm</h4>
+</div>
+</div>
+<div class="pt-2 border-t border-[#ebedff] flex items-center justify-between">
+<span class="text-xs font-bold text-[#1966b8]">85.000&nbsp;₫/cái</span>
+<button class="px-2 py-1 bg-white border border-[#1966b8] hover:bg-[#1966b8] hover:text-white text-[#1966b8] rounded text-[11px] font-bold transition-colors" type="button">Thêm</button>
+</div>
+</div>
+<!-- Item 3: Bulong Inox 304 / Spider -->
+<div class="rounded-lg border border-[#ebedff] bg-[#faf8ff] p-3 flex flex-col justify-between gap-3 hover:border-[#1966b8] transition-all">
+<div class="flex flex-col gap-2">
+<div class="aspect-[4/3] rounded bg-slate-200 overflow-hidden relative">
+<img alt="Chân nhện kính Spider 4 chấu Inox 316 chịu lực cao" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwGS53pyrG8wuaVlRBSmMyBNMTbwLV-EmqzGZTWxEw_IOpSN_SVvWWgZ_Kd0c87bsObYP8JBof4zhwn1he89xiZmjzR6w8jdYC2cpvzKIKO3imdAgzf55Haba6c-MgUU1fT4gcICLIV7n6LqFx9sKRKrIKGqUHNQQS0fVrQ8ApI_eNxIjxMoC0TM0HJYX3pKYc4ARkwgxy2XIu7AoCjm5tzkX5w3uWr0Ca2jrET3rj"/>
+<span class="absolute top-1.5 left-1.5 bg-[#1966b8] text-white text-[9px] font-bold px-1.5 py-0.5 rounded">INOX 316</span>
+</div>
+<div>
+<span class="text-[10px] text-[#717882] font-semibold">Liên kết vách kính điểm</span>
+<h4 class="font-bold text-xs text-[#1b2440] line-clamp-2">Chân nhện kính Spider 4 chấu &amp; Bulong Inox chịu lực</h4>
+</div>
+</div>
+<div class="pt-2 border-t border-[#ebedff] flex items-center justify-between">
+<span class="text-xs font-bold text-[#1966b8]">1.250.000&nbsp;₫/bộ</span>
+<button class="px-2 py-1 bg-white border border-[#1966b8] hover:bg-[#1966b8] hover:text-white text-[#1966b8] rounded text-[11px] font-bold transition-colors" type="button">Thêm</button>
+</div>
+</div>
+<!-- Item 4: Keo Silicone SS-902 -->
+<div class="rounded-lg border border-[#ebedff] bg-[#faf8ff] p-3 flex flex-col justify-between gap-3 hover:border-[#1966b8] transition-all">
+<div class="flex flex-col gap-2">
+<div class="aspect-[4/3] rounded bg-slate-200 overflow-hidden relative">
+<img alt="Keo kết cấu Silicone Structural C83 Weatherproof" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOyqes7YpterPxBq3DgKX221wYBD3gsJ9CbEyhTsOQW2yfVi646ZwI-5YvwTUy12DIC1257-y6qbkfn-LRHaRCZC7ApkWnIFgaOV_sDT44hy8n_TOrU5kiECKPAsaQv5eSUVAmT5B415m5AY1yIxMgriIFpHptbDBtjlonQ6O_2djvmK5UtEgp5jZM2Vhr7yHpCwr69fEvBPqdkiP0eBjCCMzNmGXm8ejB-4XXuzNe"/>
+<span class="absolute top-1.5 left-1.5 bg-[#fdb913] text-[#1b2440] text-[9px] font-bold px-1.5 py-0.5 rounded">KẾT CẤU SS-902</span>
+</div>
+<div>
+<span class="text-[10px] text-[#717882] font-semibold">Keo dán chống thời tiết</span>
+<h4 class="font-bold text-xs text-[#1b2440] line-clamp-2">Keo kết cấu Silicone C83 SS-902 Weatherproof</h4>
+</div>
+</div>
+<div class="pt-2 border-t border-[#ebedff] flex items-center justify-between">
+<span class="text-xs font-bold text-[#1966b8]">145.000&nbsp;₫/tuýp</span>
+<button class="px-2 py-1 bg-white border border-[#1966b8] hover:bg-[#1966b8] hover:text-white text-[#1966b8] rounded text-[11px] font-bold transition-colors" type="button">Thêm</button>
+</div>
+</div>
+</div>
+</div>
+<!-- TAB PANE 2: HỒ SƠ DỰ ÁN TIÊU BIỂU AL-902 (HIDDEN INITIALLY) -->
+<div class="p-4 md:p-5 bg-white rounded-lg border border-[#dbe1ff] shadow-sm hidden flex-col gap-4" id="mat-pane-proj">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-sm md:text-base font-bold text-[#1b2440]">Dự án quy mô đã nghiệm thu thanh nhôm C83-AL902</h3>
+<p class="text-xs text-[#717882]">Đã thi công vượt qua kiểm định tải trọng gió bão và kiểm tra sương muối duyên hải</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<!-- Project 1 -->
+<div class="rounded-lg border border-[#ebedff] overflow-hidden flex flex-col bg-[#faf8ff]">
+<div class="aspect-[16/10] overflow-hidden relative">
+<img alt="Tòa nhà Techcombank Tower" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAT1EUDhw0MX38E4DzWJe39P6qqDnQWZtg8Ri5iXPUh5qQ_mhZY1leM3ruAKUOFqkrlv76T3U_2sEhr72m95deDxT-SUSpLH8pnxhRtCcExoHbuU9CvRTyQHwOfLjkHpKElfHd3cBEdWM517GEGP45f89ztuwCJ8Ijg6qTdwUhK4f_JNnOLDn3JrG7aGpXFxfh3W-zyf9qn4XhDYLE2rx2oGWMwKCyEr35CfSt05ga7"/>
+<span class="absolute bottom-2 left-2 bg-[#1b2440]/90 text-white text-[10px] px-2 py-0.5 rounded font-mono">Hà Nội • 18.000m² vách kính</span>
+</div>
+<div class="p-3 flex flex-col gap-1 text-xs">
+<h4 class="font-bold text-[#1b2440]">Tòa nhà Techcombank Tower</h4>
+<p class="text-[#717882]">Hệ mặt dựng Unitized cách âm 42dB, hoàn thiện 2024</p>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="rounded-lg border border-[#ebedff] overflow-hidden flex flex-col bg-[#faf8ff]">
+<div class="aspect-[16/10] overflow-hidden relative">
+<img alt="Landmark Riverside Complex" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8hD2xr7FFRQy2rOQtTnDmIhqR4hOpkThwaIXRimF1y1kHSYW2Vvc0qVS0zD6elI0vlRtxH6qzUuJOp0eETw_OHBgEah4F3zrCrSHO4iYpOxdj_6TdRpnqydT6XBXITs8vWTJyt1RnfIAWpl1h5XzEkATN8oMbSB50UR6dVzebRdKBlIS9fovzu9Sxv56prpBDk1lk_dpMYDfEXwGrHxOWCeCv3CtCt5KzREKCo-JV"/>
+<span class="absolute bottom-2 left-2 bg-[#1b2440]/90 text-white text-[10px] px-2 py-0.5 rounded font-mono">TP. HCM • 45 tấn nhôm C83</span>
+</div>
+<div class="p-3 flex flex-col gap-1 text-xs">
+<h4 class="font-bold text-[#1b2440]">Landmark Riverside Complex</h4>
+<p class="text-[#717882]">Khung bao chịu gió giật ven sông cấp cao, hoàn thiện 2023</p>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="rounded-lg border border-[#ebedff] overflow-hidden flex flex-col bg-[#faf8ff]">
+<div class="aspect-[16/10] overflow-hidden relative">
+<img alt="Pullman International Resort" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxnzAD7oxIWp6KPvJLuo5LOGAf4I7PEr3ZwpxsHKdZnwXjyq1bAZF-lX588mt_TH2YnlvoW-fik83N82nrwU4yIDyphT2VDeb_N7X63KWHBNGb8cI-CspPX3Ke-SNBMKJfHuEOUtfAYbqIgRyF-c3cTXsqDpHhKKoxZCluz_LW6QIipZ8XTFNtlSi7cO7-VtCZO0vG60dSXKVB6YfOqo0otRGxMOenYwqisCP7O5fA"/>
+<span class="absolute bottom-2 left-2 bg-[#1b2440]/90 text-white text-[10px] px-2 py-0.5 rounded font-mono">Đà Nẵng • Biển mặn cấp độ cao</span>
+</div>
+<div class="p-3 flex flex-col gap-1 text-xs">
+<h4 class="font-bold text-[#1b2440]">Pullman International Resort</h4>
+<p class="text-[#717882]">Mạ Anodized ED Class 1 chống muối biển 25 năm, hoàn thiện 2024</p>
+</div>
+</div>
+</div>
+</div>
+<!-- TAB PANE 3: BẢNG TRA SAI SỐ DUNG SAI ĐÙN ÉP JIS NHẬT BẢN (HIDDEN INITIALLY) -->
+<div class="p-4 md:p-5 bg-white rounded-lg border border-[#dbe1ff] shadow-sm hidden flex-col gap-3" id="mat-pane-tol">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-sm md:text-base font-bold text-[#1b2440]">Bảng tra sai số dung sai đùn ép JIS H4100 Class Special (Nhật Bản)</h3>
+<p class="text-xs text-[#717882]">Áp dụng cho biên dạng profile hệ C83 kiểm tra tại phòng kiểm định QC xuất xưởng</p>
+</div>
+<span class="font-mono text-[11px] text-white bg-[#1b2440] px-2.5 py-1 rounded">Dung sai cấp chính xác cao</span>
+</div>
+<div class="overflow-x-auto rounded border border-[#ebedff]">
+<table class="w-full text-left text-xs">
+<thead class="bg-[#f2f3ff] text-[#1b2440] font-bold">
+<tr>
+<th class="p-2.5 border-b border-[#ebedff]">Hạng mục kiểm tra</th>
+<th class="p-2.5 border-b border-[#ebedff]">Kích thước thiết kế</th>
+<th class="p-2.5 border-b border-[#ebedff]">Dung sai cho phép JIS Special</th>
+<th class="p-2.5 border-b border-[#ebedff]">Dung sai thực tế C83</th>
+<th class="p-2.5 border-b border-[#ebedff]">Phương pháp đo</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-[#ebedff] text-[#414751]">
+<tr class="hover:bg-[#faf8ff]">
+<td class="p-2.5 font-bold text-[#1b2440]">Chiều rộng mặt ngoài (W)</td>
+<td class="p-2.5">83.0 mm</td>
+<td class="p-2.5">± 0.45 mm</td>
+<td class="p-2.5 font-bold text-emerald-600">± 0.18 mm</td>
+<td class="p-2.5 font-mono text-[11px]">Thước cặp điện tử Mitutoyo</td>
+</tr>
+<tr class="hover:bg-[#faf8ff]">
+<td class="p-2.5 font-bold text-[#1b2440]">Độ dày thành chịu lực (T)</td>
+<td class="p-2.5">2.5 mm</td>
+<td class="p-2.5">± 0.20 mm</td>
+<td class="p-2.5 font-bold text-emerald-600">± 0.08 mm</td>
+<td class="p-2.5 font-mono text-[11px]">Đo độ dày siêu âm</td>
+</tr>
+<tr class="hover:bg-[#faf8ff]">
+<td class="p-2.5 font-bold text-[#1b2440]">Độ thẳng / Độ võng trên 6.0m</td>
+<td class="p-2.5">L = 6.000 mm</td>
+<td class="p-2.5">≤ 1.0 mm / mét dài</td>
+<td class="p-2.5 font-bold text-emerald-600">≤ 0.4 mm / mét dài</td>
+<td class="p-2.5 font-mono text-[11px]">Bàn đá chuẩn &amp; Thước thợ</td>
+</tr>
+<tr class="hover:bg-[#faf8ff]">
+<td class="p-2.5 font-bold text-[#1b2440]">Góc vuông ngàm ghép</td>
+<td class="p-2.5">90° 00'</td>
+<td class="p-2.5">± 1°</td>
+<td class="p-2.5 font-bold text-emerald-600">± 0° 15'</td>
+<td class="p-2.5 font-mono text-[11px]">Máy đo quang học 2.5D CMM</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section><!-- RFQ MODAL POPUP DIALOG (EMBEDDED) --><div class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 hidden" id="rfq-modal">
+<div class="bg-white rounded-xl shadow-2xl max-w-lg w-full p-5 border border-[#dbe1ff] flex flex-col gap-4">
+<div class="flex items-center justify-between border-b border-[#ebedff] pb-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#fdb913] text-[24px]">assignment_turned_in</span>
+<h3 class="font-headline-sm text-base font-bold text-[#1b2440]">Yêu cầu báo giá Dự án (RFQ)</h3>
+</div>
+<button class="w-8 h-8 rounded-full bg-[#f2f3ff] text-[#414751] hover:text-[#111a36] flex items-center justify-center" onclick="hideRfqModal()" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<form class="flex flex-col gap-3 text-xs" onsubmit="event.preventDefault(); alert('Yêu cầu báo giá của bạn đã được tiếp nhận! Kỹ sư phụ trách sẽ gửi báo giá sau 30 phút.'); hideRfqModal();">
+<div>
+<label class="block font-bold text-[#1b2440] mb-1">Mã sản phẩm:</label>
+<input class="w-full bg-[#f2f3ff] rounded border-0 p-2 font-mono text-xs text-[#1b2440]" readonly="" type="text" value="C83-AL902 (Thanh nhôm hệ mặt dựng)"/>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div>
+<label class="block font-bold text-[#1b2440] mb-1">Khối lượng dự kiến (Cây):</label>
+<input class="w-full bg-white rounded border border-[#c0c7d2] p-2 text-xs" id="modal-rfq-qty" placeholder="Ví dụ: 150 cây" required="" type="text"/>
+</div>
+<div>
+<label class="block font-bold text-[#1b2440] mb-1">Số điện thoại liên hệ:</label>
+<input class="w-full bg-white rounded border border-[#c0c7d2] p-2 text-xs" placeholder="09xx xxx xxx" required="" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block font-bold text-[#1b2440] mb-1">Tên Dự án / Gói thầu:</label>
+<input class="w-full bg-white rounded border border-[#c0c7d2] p-2 text-xs" placeholder="Ví dụ: Khách sạn Marriott Đà Nẵng" required="" type="text"/>
+</div>
+<div>
+<label class="block font-bold text-[#1b2440] mb-1">Yêu cầu gia công thêm (nếu có):</label>
+<textarea class="w-full bg-white rounded border border-[#c0c7d2] p-2 text-xs" placeholder="Cắt CNC chiều dài phi tiêu chuẩn, phay ngàm, cung cấp bulong..." rows="2"></textarea>
+</div>
+<div class="pt-2 flex items-center justify-end gap-2 border-t border-[#ebedff]">
+<button class="px-3 py-2 rounded text-xs font-bold text-[#414751] hover:bg-[#ebedff]" onclick="hideRfqModal()" type="button">Hủy bỏ</button>
+<button class="px-5 py-2 rounded bg-gradient-to-r from-[#fdb913] to-[#f39c12] text-[#1b2440] font-black text-xs uppercase shadow-sm" type="submit">GỬI YÊU CẦU NGAY</button>
+</div>
+</form>
+</div>
+</div><!-- JAVASCRIPT WORKBENCH LOGIC --><script>
+  // 1. Media and Visual Mode Switcher
+  function selectWorkbenchMedia(btn, src, title) {
+    document.querySelectorAll('.thumb-slot').forEach(el => {
+      el.className = 'thumb-slot aspect-square rounded border border-[#dbe1ff] bg-slate-100 p-0.5 overflow-hidden hover:border-[#1966b8] transition-all text-left relative';
+    });
+    btn.className = 'thumb-slot aspect-square rounded border-2 border-[#1966b8] bg-[#0e172e] p-0.5 overflow-hidden transition-all text-left relative';
+    
+    const mainImg = document.getElementById('main-workbench-image');
+    if (mainImg) mainImg.src = src;
+    
+    const titleEl = document.getElementById('view-mode-title');
+    if (titleEl) titleEl.innerText = title;
+  }
+
+  function switchVisualMode(mode) {
+    const btnCad = document.getElementById('mode-btn-cad');
+    const btnPhoto = document.getElementById('mode-btn-photo');
+    const mainImg = document.getElementById('main-workbench-image');
+    const titleEl = document.getElementById('view-mode-title');
+
+    if (mode === 'cad') {
+      btnCad.className = 'px-2 py-0.5 rounded bg-[#1966b8] text-white shadow-xs';
+      btnPhoto.className = 'px-2 py-0.5 rounded text-[#414751] hover:text-[#111a36]';
+      mainImg.src = 'https://lh3.googleusercontent.com/aida-public/AB6AXuC6VMXoAbfS-TpF4_rgVw9ldeUDeBhOTH357PgxrCl3zdJXEiH3TaL_ZV9HwxAfjGyZa_w2s9dpMqJeLreVyGgMN-NtiCu2Ago91mSRKJibUBqO8pUcECvOD1VZB-SJenMu8-bTkzQvNviKmMc8EaH54rY9DIg87vBnayaVfciHVc8NfBsatrF506xBPUq4W8jmPyebk0QFDg5_8gKrK34Zms9cSS7MC4JdDBVtxt2v';
+      titleEl.innerText = 'Mặt cắt kỹ thuật (CAD 2D)';
+    } else {
+      btnPhoto.className = 'px-2 py-0.5 rounded bg-[#1966b8] text-white shadow-xs';
+      btnCad.className = 'px-2 py-0.5 rounded text-[#414751] hover:text-[#111a36]';
+      mainImg.src = 'https://lh3.googleusercontent.com/aida-public/AB6AXuB1sjlqmvbxymB_H5WL9FsjwBwIX22vD4xjCKq4fseLOGqYJQ0GzgWGd2SKaZLvlnfY2d7CuzqMp6Gvsaxutd9u9wffZO4receA8QsVyr5Nn370z2PLBKqp_K8vAiiuKftM68GyKMdlBzHIcSozLHqxT1UUAzDFL4ctgwj36-vhFO7TPByy9Wdd9C_6c3z0im13d47mUGavgTQ_mdyqWHV30N9ar4svfhqL_VXJv9v7';
+      titleEl.innerText = 'Ảnh chụp mẫu profile thực tế';
+    }
+  }
+
+  // 2. Workbench Mid-Column Purchase Mode Switcher
+  function switchWorkbenchTab(tab) {
+    const btnComm = document.getElementById('tab-workbench-comm');
+    const btnProj = document.getElementById('tab-workbench-proj');
+    const paneComm = document.getElementById('pane-workbench-comm');
+    const paneProj = document.getElementById('pane-workbench-proj');
+
+    if (tab === 'comm') {
+      btnComm.className = 'py-2 px-3 rounded text-xs font-bold text-center transition-all bg-white text-[#1966b8] shadow-xs flex items-center justify-center gap-1.5';
+      btnProj.className = 'py-2 px-3 rounded text-xs font-bold text-center transition-all text-[#414751] hover:text-[#111a36] flex items-center justify-center gap-1.5';
+      paneComm.classList.remove('hidden');
+      paneProj.classList.add('hidden');
+    } else {
+      btnProj.className = 'py-2 px-3 rounded text-xs font-bold text-center transition-all bg-white text-[#1966b8] shadow-xs flex items-center justify-center gap-1.5';
+      btnComm.className = 'py-2 px-3 rounded text-xs font-bold text-center transition-all text-[#414751] hover:text-[#111a36] flex items-center justify-center gap-1.5';
+      paneProj.classList.remove('hidden');
+      paneComm.classList.add('hidden');
+    }
+  }
+
+  // 3. Sticky Estimator Calculator Logic
+  const PRICE_PER_BAR = 2450000;
+  const METERS_PER_BAR = 6.0;
+  const WEIGHT_PER_METER = 2.85;
+
+  function calcQty(delta) {
+    const input = document.getElementById('calc-qty-input');
+    let val = parseInt(input.value, 10) || 1;
+    val += delta;
+    if (val < 1) val = 1;
+    input.value = val;
+    recalculateEstimates();
+  }
+
+  function recalculateEstimates() {
+    const input = document.getElementById('calc-qty-input');
+    let qty = parseInt(input.value, 10);
+    if (isNaN(qty) || qty < 1) qty = 1;
+
+    const totalMeters = (qty * METERS_PER_BAR).toFixed(1);
+    const totalWeight = (qty * METERS_PER_BAR * WEIGHT_PER_METER).toFixed(1);
+    const totalPallets = Math.ceil(qty / 30);
+    const totalCost = qty * PRICE_PER_BAR;
+
+    document.getElementById('res-total-meters').innerText = Number(totalMeters).toLocaleString('vi-VN') + ' mét';
+    document.getElementById('res-total-weight').innerText = Number(totalWeight).toLocaleString('vi-VN') + ' kg';
+    document.getElementById('res-total-pallets').innerText = totalPallets + ' kiện (gỗ)';
+    document.getElementById('res-total-cost').innerText = totalCost.toLocaleString('vi-VN') + ' ₫';
+  }
+
+  // 4. Matrix Accordion/Tabs Switcher
+  function switchMatrixTab(key) {
+    const tabs = ['acc', 'proj', 'tol'];
+    tabs.forEach(t => {
+      const btn = document.getElementById('mat-btn-' + t);
+      const pane = document.getElementById('mat-pane-' + t);
+      if (t === key) {
+        btn.className = 'matrix-tab-btn px-4 py-2 rounded-t-md font-bold text-xs flex items-center gap-1.5 transition-all bg-[#1b2440] text-[#fdb913] shadow-xs';
+        pane.classList.remove('hidden');
+        pane.classList.add('flex');
+      } else {
+        btn.className = 'matrix-tab-btn px-4 py-2 rounded-t-md font-bold text-xs flex items-center gap-1.5 transition-all bg-white text-[#414751] hover:text-[#1b2440]';
+        pane.classList.add('hidden');
+        pane.classList.remove('flex');
+      }
+    });
+  }
+
+  // 5. Modal and Quick RFQ Trigger
+  function showRfqModal() {
+    const qty = document.getElementById('calc-qty-input').value;
+    const modalInput = document.getElementById('modal-rfq-qty');
+    if (modalInput) modalInput.value = qty + ' cây (' + (qty * 6) + ' mét)';
+    document.getElementById('rfq-modal').classList.remove('hidden');
+  }
+
+  function hideRfqModal() {
+    document.getElementById('rfq-modal').classList.add('hidden');
+  }
+
+  function scrollToRFQ() {
+    showRfqModal();
+  }
+</script></main><!-- ===== C83 GROUP FOOTER (chèn từ c83group.vn) ===== -->
+<footer class="c83-foot c83-site-footer" style="font-family:'Be Vietnam Pro',Arial,Helvetica,sans-serif;background:#0E1433;color:rgba(255,255,255,0.85)">
+<div style="background:linear-gradient(135deg,#1966B8 0%,#222A8C 100%)">
+<div style="max-width:1320px;margin:0 auto;padding:40px 24px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between">
+<div style="flex:1 1 520px;min-width:0">
+<h3 style="margin:0;font-size:30px;font-weight:900;color:#FFFFFF">Sẵn sàng hợp tác cùng C83 Group?</h3>
+<p style="margin:8px 0 0;color:rgba(255,255,255,0.85)">Đội ngũ chuyên gia của chúng tôi luôn sẵn sàng tư vấn giải pháp trọn gói cho dự án của bạn.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<a href="#" style="display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:8px;background:linear-gradient(135deg,#FDB913 0%,#F39C12 100%);color:#141A3A;font-weight:700;text-decoration:none;box-shadow:0 12px 30px -12px rgba(243,156,18,0.6)">Gửi yêu cầu tư vấn</a>
+<a href="tel:1900633483" style="display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 24px;border-radius:8px;border:2px solid rgba(255,255,255,0.4);color:#FFFFFF;font-weight:700;text-decoration:none"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>1900 633 483</a>
+</div>
+</div>
+</div>
+<div style="max-width:1320px;margin:0 auto;padding:56px 24px;display:flex;flex-wrap:wrap;gap:40px">
+<div style="flex:1.4 1 300px;min-width:0">
+<img src="../assets/c83-logo.png" alt="C83 Group" style="height:56px;width:auto;display:block;filter:brightness(0) invert(1)">
+<p style="margin:20px 0 0;font-size:14px;line-height:1.7;color:rgba(255,255,255,0.7)">Hệ sinh thái 10 công ty thành viên kiến tạo giá trị toàn diện — từ vật liệu, công nghệ đến thi công công trình quy mô lớn.</p>
+<ul style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li style="display:flex;gap:10px;align-items:flex-start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FDB913" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>L8-122 Khu đô thị Louis, Phường Hoàng Mai, TP Hà Nội, Việt Nam</li>
+<li style="display:flex;gap:10px;align-items:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FDB913" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>Hotline: 1900 633 483</li>
+<li style="display:flex;gap:10px;align-items:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FDB913" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>info@c83group.vn</li>
+</ul>
+</div>
+<div style="flex:1 1 180px;min-width:0">
+<h4 style="margin:0 0 16px;font-size:13px;font-weight:900;letter-spacing:0.15em;text-transform:uppercase;color:#FFFFFF"><span style="border-bottom:2px solid #FDB913;padding-bottom:4px">Về C83 Group</span></h4>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Tổng quan tập đoàn</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Tầm nhìn – Sứ mệnh</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">HĐQT & Ban điều hành</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Lịch sử hình thành</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Trách nhiệm xã hội</a></li>
+</ul>
+</div>
+<div style="flex:1 1 180px;min-width:0">
+<h4 style="margin:0 0 16px;font-size:13px;font-weight:900;letter-spacing:0.15em;text-transform:uppercase;color:#FFFFFF"><span style="border-bottom:2px solid #FDB913;padding-bottom:4px">Hệ sinh thái</span></h4>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Công ty thành viên</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Sơ đồ hệ sinh thái</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Lĩnh vực hoạt động</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Dự án tiêu biểu</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Đối tác chiến lược</a></li>
+</ul>
+</div>
+<div style="flex:1 1 180px;min-width:0">
+<h4 style="margin:0 0 16px;font-size:13px;font-weight:900;letter-spacing:0.15em;text-transform:uppercase;color:#FFFFFF"><span style="border-bottom:2px solid #FDB913;padding-bottom:4px">Phát triển</span></h4>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Chiến lược ESG</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Văn hóa doanh nghiệp</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Hoạt động cộng đồng</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Báo cáo bền vững</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Tuyển dụng</a></li>
+</ul>
+</div>
+</div>
+<div style="border-top:1px solid rgba(255,255,255,0.1)">
+<div style="max-width:1320px;margin:0 auto;padding:20px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;font-size:12px;color:rgba(255,255,255,0.6)">
+<span>&copy; 2026 C83 Group. All rights reserved.</span>
+<div style="display:flex;gap:20px">
+<a href="#" style="color:rgba(255,255,255,0.6);text-decoration:none">Chính sách bảo mật</a>
+<a href="#" style="color:rgba(255,255,255,0.6);text-decoration:none">Điều khoản sử dụng</a>
+<a href="#" style="color:rgba(255,255,255,0.6);text-decoration:none">Sitemap</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- ===== /C83 GROUP FOOTER ===== -->
+</body></html>

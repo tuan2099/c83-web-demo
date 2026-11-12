@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_blank" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"secondary-fixed":"#dfe0ff","surface-container-highest":"#dbe1ff","on-tertiary-container":"#fff6ec","inverse-primary":"#9dcaff","inverse-on-surface":"#eff0ff","on-secondary":"#ffffff","on-tertiary-fixed-variant":"#5e4200","tertiary":"#755300","surface-container":"#ebedff","surface-bright":"#faf8ff","on-primary":"#ffffff","on-surface-variant":"#414751","primary-fixed":"#d1e4ff","surface-tint":"#0061a2","surface":"#faf8ff","on-primary-fixed-variant":"#00497c","error-container":"#ffdad6","surface-dim":"#d0d9fe","on-secondary-container":"#26348b","on-background":"#111a36","on-surface":"#111a36","on-secondary-fixed-variant":"#303e95","tertiary-fixed":"#ffdea6","outline-variant":"#c0c7d2","primary-fixed-dim":"#9dcaff","on-tertiary":"#ffffff","tertiary-fixed-dim":"#ffbb16","on-error-container":"#93000a","on-tertiary-fixed":"#271900","on-primary-container":"#f5f7ff","primary":"#1966b8","surface-container-high":"#e3e7ff","outline":"#717882","secondary":"#4957ae","surface-container-lowest":"#ffffff","inverse-surface":"#262f4c","tertiary-container":"#946a00","background":"#faf8ff","on-primary-fixed":"#001d36","secondary-container":"#94a2ff","primary-container":"#1966b8","secondary-fixed-dim":"#bbc3ff","error":"#ba1a1a","surface-variant":"#dbe1ff","surface-container-low":"#f2f3ff","on-error":"#ffffff","on-secondary-fixed":"#000e5e"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-md":"1rem","space-lg":"1.5rem","gutter":"1.5rem","space-xl":"2.5rem","margin":"2rem","gutter-mobile":"1rem","space-sm":"0.5rem","space-xs":"0.25rem","margin-mobile":"1rem"},"fontFamily":{"headline-lg-mobile":["Be Vietnam Pro"],"body-lg":["Be Vietnam Pro"],"headline-xl":["Be Vietnam Pro"],"body-sm":["Be Vietnam Pro"],"headline-lg":["Be Vietnam Pro"],"headline-sm":["Be Vietnam Pro"],"label-eyebrow":["Be Vietnam Pro"],"label-button":["Be Vietnam Pro"],"body-md":["Be Vietnam Pro"],"caption":["Be Vietnam Pro"],"headline-xl-mobile":["Be Vietnam Pro"],"headline-md":["Be Vietnam Pro"],"title-md":["Be Vietnam Pro"]},"fontSize":{"headline-lg-mobile":["28px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"900"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-xl":["56px",{"lineHeight":"60px","letterSpacing":"-0.025em","fontWeight":"900"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"500"}],"headline-lg":["40px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"900"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"800"}],"label-eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.25em","fontWeight":"800"}],"label-button":["14px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"caption":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"500"}],"headline-xl-mobile":["36px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"900"}],"headline-md":["28px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"900"}],"title-md":["16px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"700"}]}}}}</script></head><body class="min-h-full bg-surface text-on-surface antialiased">
+<style class="c83-hf-style">.c83-nav a:hover,.c83-foot a:hover{color:#FDB913 !important}</style>
+<!-- ===== C83 GROUP HEADER (chèn từ c83group.vn) ===== -->
+<header class="c83-site-header" style="font-family:'Be Vietnam Pro',Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#1966B8 0%,#222A8C 100%);color:#F9FAFB">
+<div style="border-bottom:1px solid rgba(255,255,255,0.1)">
+<div style="max-width:1320px;margin:0 auto;padding:0 24px;min-height:36px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;font-size:12px;color:rgba(255,255,255,0.9)">
+<span>Connect &ndash; Construct &ndash; Capitalize</span>
+<div class="c83-nav" style="display:flex;align-items:center;gap:20px">
+<a href="tel:1900633483" style="color:rgba(255,255,255,0.9);text-decoration:none;display:inline-flex;align-items:center;gap:6px"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>1900 633 483</a>
+<a href="mailto:info@c83group.vn" style="color:rgba(255,255,255,0.9);text-decoration:none">info@c83group.vn</a>
+<button type="button" style="background:none;border:0;color:rgba(255,255,255,0.9);font:inherit;display:inline-flex;align-items:center;gap:4px;cursor:pointer;padding:0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>VN | EN</button>
+</div>
+</div>
+</div>
+<div style="max-width:1320px;margin:0 auto;padding:0 24px;min-height:80px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+<a href="#" style="display:block;width:158px;height:48px"><img src="../assets/c83-logo.png" alt="C83 Group" style="width:100%;height:100%;object-fit:contain;display:block"></a>
+<nav class="c83-nav" aria-label="Điều hướng chính" style="display:flex;flex-wrap:wrap;align-items:center;gap:4px">
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Về tập đoàn<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Đơn vị thành viên<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">ESG<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Lĩnh vực<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Năng lực<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Tin tức</a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Tuyển dụng</a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Liên hệ</a>
+</nav>
+<a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 18px;border-radius:8px;background:linear-gradient(135deg,#FDB913 0%,#F39C12 100%);color:#141A3A;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 12px 30px -12px rgba(243,156,18,0.6)">Tư vấn ngay</a>
+</div>
+</header>
+<!-- ===== /C83 GROUP HEADER ===== -->
+<main class="w-full min-h-screen bg-surface"><div class="flex flex-col w-full">
+<!-- INDUSTRIAL COMMAND SUB-BAR -->
+<div class="w-full bg-inverse-surface text-inverse-on-surface px-margin py-space-sm shadow-md">
+<div class="max-w-[1320px] mx-auto px-6 flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md flex-wrap">
+<div class="flex items-center gap-space-xs font-label-eyebrow text-label-eyebrow tracking-widest text-primary-fixed">
+<span class="text-inverse-on-surface/60">C83 PROCUREMENT</span>
+<span class="text-inverse-on-surface/40">/</span>
+<span class="text-tertiary-fixed font-title-md text-title-md">#PO-2026-8849</span>
+<span class="text-inverse-on-surface/40">/</span>
+<span class="text-inverse-on-surface">THANH TOÁN &amp; BÀN GIAO</span>
+</div>
+<span class="bg-primary-container/40 text-primary-fixed border border-primary-container px-space-sm py-0.5 rounded-full font-caption text-caption uppercase flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+          Tier 1 Enterprise
+        </span>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="hidden lg:flex items-center gap-space-xs bg-inverse-on-surface/10 px-space-md py-1.5 rounded-lg">
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px]">account_balance_wallet</span>
+<div class="flex flex-col leading-tight">
+<span class="text-[10px] uppercase tracking-wider text-inverse-on-surface/70 font-caption">Hạn mức khả dụng</span>
+<span class="font-title-md text-title-md text-surface-bright font-bold">1.500.000.000&nbsp;đ</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="flex items-center gap-1.5 px-space-md py-1.5 rounded-lg bg-inverse-on-surface/10 hover:bg-inverse-on-surface/20 text-inverse-on-surface transition-colors font-label-button text-label-button" type="button">
+<span class="material-symbols-outlined text-[16px]">arrow_back</span>
+            Mua sắm
+          </button>
+<button class="flex items-center gap-1.5 px-space-md py-1.5 rounded-lg bg-surface-container-highest/20 hover:bg-surface-container-highest/30 text-surface-bright transition-colors font-label-button text-label-button" type="button">
+<span class="material-symbols-outlined text-[16px]">print</span>
+            In PO nháp
+          </button>
+</div>
+</div>
+</div>
+</div>
+<!-- WORKFLOW STEPS TRACKER -->
+<div class="w-full bg-surface-container-low border-b border-surface-container-highest/60 py-space-md">
+<div class="max-w-[1320px] mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm">
+<!-- Step 1 -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-lowest shadow-sm">
+<div class="w-7 h-7 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-bold text-caption">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div class="flex flex-col">
+<span class="text-caption text-outline font-label-eyebrow uppercase">Bước 01</span>
+<span class="font-title-md text-title-md text-on-surface">Giỏ vật tư &amp; Quy cách</span>
+</div>
+<span class="ml-auto text-caption font-bold text-primary-container bg-primary-container/10 px-2 py-0.5 rounded">Hoàn tất</span>
+</div>
+<!-- Step 2 -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-lowest shadow-sm">
+<div class="w-7 h-7 rounded-full bg-tertiary-container text-on-tertiary-container flex items-center justify-center font-bold text-caption">
+            02
+          </div>
+<div class="flex flex-col">
+<span class="text-caption text-tertiary font-label-eyebrow uppercase">Bước 02</span>
+<span class="font-title-md text-title-md text-on-surface">Pháp nhân &amp; Giao nhận</span>
+</div>
+<span class="ml-auto text-caption font-bold text-tertiary-container bg-tertiary-fixed/40 px-2 py-0.5 rounded">Đang xử lý</span>
+</div>
+<!-- Step 3 -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-lowest shadow-sm">
+<div class="w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-caption">
+            03
+          </div>
+<div class="flex flex-col">
+<span class="text-caption text-primary font-label-eyebrow uppercase">Bước 03</span>
+<span class="font-title-md text-title-md text-on-surface">Thanh toán &amp; Hóa đơn VAT</span>
+</div>
+<span class="ml-auto text-caption font-bold text-primary bg-primary-fixed px-2 py-0.5 rounded">Thiết lập</span>
+</div>
+</div>
+</div>
+</div>
+<!-- MAIN TERMINAL CONTENT GRID -->
+<div class="w-full bg-surface py-space-xl">
+<div class="max-w-[1320px] mx-auto px-6">
+<div class="flex flex-col lg:flex-row gap-gutter items-start">
+<!-- LEFT COLUMN (~62% width) -->
+<div class="w-full lg:w-[62%] flex flex-col gap-space-xl">
+<!-- SECTION 1: DANH MỤC VẬT TƯ -->
+<div class="bg-surface-container-lowest rounded-lg p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="w-1.5 h-6 bg-primary rounded-full"></span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Danh mục vật tư đặt mua trực tiếp</h2>
+<span class="bg-surface-container text-on-surface-variant font-caption text-caption px-2 py-0.5 rounded-full font-bold">03 mã hàng</span>
+</div>
+<span class="font-caption text-caption text-outline">Kho Tân Uyên &amp; Nhơn Trạch</span>
+</div>
+<!-- Material Items Card Stack -->
+<div class="flex flex-col gap-space-sm">
+<!-- Item 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row gap-space-md items-start md:items-center">
+<div class="w-16 h-16 rounded bg-surface-container-highest/60 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[32px]">view_in_ar</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="font-label-eyebrow text-label-eyebrow text-primary">AL-SERIES</span>
+<span class="text-caption bg-surface-container-highest px-1.5 py-0.2 rounded font-bold text-on-surface-variant">C83-AL902</span>
+<span class="text-caption bg-tertiary-fixed text-on-tertiary-fixed font-bold px-1.5 py-0.2 rounded">VAT 10%</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface leading-tight">Thanh nhôm định hình cao cấp Anodized C83-AL902</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Chiều dài: 6.0m/cây • Đóng gói: 1 Kiện gỗ (25 cây) • Kho xuất: Tân Uyên, Bình Dương</p>
+</div>
+<div class="text-right shrink-0">
+<div class="font-caption text-caption text-outline">2.450.000&nbsp;đ/cây × 25 cây</div>
+<div class="font-title-md text-title-md text-primary font-black mt-0.5">61.250.000&nbsp;đ</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row gap-space-md items-start md:items-center">
+<div class="w-16 h-16 rounded bg-surface-container-highest/60 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[32px]">hardware</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="font-label-eyebrow text-label-eyebrow text-primary">ACCESSORIES</span>
+<span class="text-caption bg-surface-container-highest px-1.5 py-0.2 rounded font-bold text-on-surface-variant">C83-CLEAT-85</span>
+<span class="text-caption bg-tertiary-fixed text-on-tertiary-fixed font-bold px-1.5 py-0.2 rounded">VAT 10%</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface leading-tight">Ke góc đúc áp lực tiêu chuẩn C83 gia cường ngàm</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Quy cách: Hộp 50 cái • 02 hộp (100 cái) • Kho xuất: Nhơn Trạch, Đồng Nai</p>
+</div>
+<div class="text-right shrink-0">
+<div class="font-caption text-caption text-outline">85.000&nbsp;đ/cái × 100 cái</div>
+<div class="font-title-md text-title-md text-primary font-black mt-0.5">8.500.000&nbsp;đ</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row gap-space-md items-start md:items-center">
+<div class="w-16 h-16 rounded bg-surface-container-highest/60 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[32px]">format_paint</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-2 flex-wrap mb-1">
+<span class="font-label-eyebrow text-label-eyebrow text-primary">SEALANT</span>
+<span class="text-caption bg-surface-container-highest px-1.5 py-0.2 rounded font-bold text-on-surface-variant">C83-SS-902</span>
+<span class="text-caption bg-tertiary-fixed text-on-tertiary-fixed font-bold px-1.5 py-0.2 rounded">VAT 10%</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface leading-tight">Keo kết cấu Silicone C83 SS-902 Weatherproof</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Thùng 20 tuýp (600ml) • 03 thùng (60 tuýp) • Màu: Xám đậm (Dark Grey)</p>
+</div>
+<div class="text-right shrink-0">
+<div class="font-caption text-caption text-outline">145.000&nbsp;đ/tuýp × 60 tuýp</div>
+<div class="font-title-md text-title-md text-primary font-black mt-0.5">8.700.000&nbsp;đ</div>
+</div>
+</div>
+</div>
+<!-- Material Subtotal Strip -->
+<div class="bg-surface-container p-space-md rounded-lg flex flex-col sm:flex-row justify-between items-center gap-space-sm mt-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">verified_user</span>
+<span class="font-body-sm text-body-sm text-on-surface font-semibold">Chiết khấu đối tác nhà thầu Tier 1 tự động áp dụng (-5%)</span>
+</div>
+<div class="flex items-center gap-space-md text-right">
+<span class="font-caption text-caption text-outline line-through">78.450.000&nbsp;đ</span>
+<span class="font-title-md text-title-md text-tertiary font-bold">-3.922.500&nbsp;đ</span>
+</div>
+</div>
+</div>
+<!-- SECTION 2: ĐỊA CHỈ NHẬN HÀNG & CÔNG TRƯỜNG -->
+<div class="bg-surface-container-lowest rounded-lg p-space-lg shadow-sm flex flex-col gap-space-lg">
+<div class="flex items-center gap-space-sm pb-space-sm">
+<span class="w-1.5 h-6 bg-primary rounded-full"></span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Địa chỉ nhận hàng &amp; Điều kiện dỡ hàng công trường</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1.5">
+<label class="font-caption text-caption text-outline uppercase font-label-eyebrow">Doanh nghiệp tiếp nhận</label>
+<div class="h-12 bg-surface-container-low rounded-lg px-4 flex items-center font-title-md text-title-md text-on-surface font-semibold">
+                  Công ty CP Xây dựng &amp; Kỹ thuật Delta
+                </div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-caption text-caption text-outline uppercase font-label-eyebrow">Mã số thuế (Doanh nghiệp)</label>
+<div class="h-12 bg-surface-container-low rounded-lg px-4 flex items-center justify-between font-title-md text-title-md text-on-surface font-semibold">
+<span>0108388388</span>
+<span class="bg-primary/10 text-primary text-caption font-bold px-2 py-0.5 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Đã xác thực e-Invoice
+                  </span>
+</div>
+</div>
+<div class="md:col-span-2 flex flex-col gap-1.5">
+<label class="font-caption text-caption text-outline uppercase font-label-eyebrow">Địa chỉ công trường tiếp nhận bàn giao</label>
+<div class="h-12 bg-surface-container-low rounded-lg px-4 flex items-center font-body-md text-body-md text-on-surface font-medium">
+                  Lô CN-08, KCN Yên Phong II-C, Xã Tam Giang, Tỉnh Bắc Ninh
+                </div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-caption text-caption text-outline uppercase font-label-eyebrow">Kỹ sư chỉ huy nhận hàng tại hiện trường</label>
+<div class="h-12 bg-surface-container-low rounded-lg px-4 flex items-center font-title-md text-title-md text-on-surface">
+                  Lê Hoàng Nam (Chỉ huy phó)
+                </div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-caption text-caption text-outline uppercase font-label-eyebrow">Hotline liên hệ công trường</label>
+<div class="h-12 bg-surface-container-low rounded-lg px-4 flex items-center font-title-md text-title-md text-on-surface font-semibold">
+                  0918 842 888
+                </div>
+</div>
+</div>
+<!-- Vehicle Selector Matrix -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<label class="font-caption text-caption text-outline uppercase font-label-eyebrow">Quy cách phương tiện giao hàng yêu cầu</label>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm">
+<!-- Vehicle 1: Selected -->
+<div class="p-space-md rounded-lg bg-surface-container border-2 border-primary cursor-pointer flex flex-col gap-2">
+<div class="flex justify-between items-center">
+<span class="material-symbols-outlined text-primary text-[24px]">rv_hookup</span>
+<span class="w-4 h-4 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[12px]">check</span>
+</span>
+</div>
+<div class="font-title-md text-title-md text-on-surface font-bold leading-snug">Xe tải cẩu 15 tấn</div>
+<div class="font-caption text-caption text-on-surface-variant">Hạ hàng tận chân công trình (Được C83 đài thọ)</div>
+</div>
+<!-- Vehicle 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container cursor-pointer flex flex-col gap-2 opacity-80">
+<div class="flex justify-between items-center">
+<span class="material-symbols-outlined text-outline text-[24px]">local_shipping</span>
+<span class="w-4 h-4 rounded-full bg-surface-container-highest"></span>
+</div>
+<div class="font-title-md text-title-md text-on-surface font-bold leading-snug">Xe Container 40ft</div>
+<div class="font-caption text-caption text-on-surface-variant">Chủ đầu tư tự bố trí xe cẩu dỡ hạ tại kho</div>
+</div>
+<!-- Vehicle 3 -->
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container cursor-pointer flex flex-col gap-2 opacity-80">
+<div class="flex justify-between items-center">
+<span class="material-symbols-outlined text-outline text-[24px]">electric_bolt</span>
+<span class="w-4 h-4 rounded-full bg-surface-container-highest"></span>
+</div>
+<div class="font-title-md text-title-md text-on-surface font-bold leading-snug">Hỏa tốc 24h (Xe 5T)</div>
+<div class="font-caption text-caption text-on-surface-variant">Áp dụng đơn hàng gấp (Phụ thu ca đêm)</div>
+</div>
+</div>
+</div>
+<!-- Site Delivery Notes -->
+<div class="flex flex-col gap-1.5">
+<label class="font-caption text-caption text-outline uppercase font-label-eyebrow">Ghi chú phối hợp công trường</label>
+<div class="h-12 bg-surface-container-low rounded-lg px-4 flex items-center text-on-surface font-body-md text-body-md">
+<span class="material-symbols-outlined text-tertiary mr-2 text-[18px]">info</span>
+                Cần gửi danh sách CMND/CCCD tài xế và biển số xe trước 12h trưa để làm thủ tục cổng an ninh.
+              </div>
+</div>
+</div>
+<!-- SECTION 3: PHƯƠNG THỨC THANH TOÁN B2B -->
+<div class="bg-surface-container-lowest rounded-lg p-space-lg shadow-sm flex flex-col gap-space-lg">
+<div class="flex items-center gap-space-sm pb-space-sm">
+<span class="w-1.5 h-6 bg-primary rounded-full"></span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Phương thức thanh toán B2B &amp; Quyết toán tài chính</h2>
+</div>
+<!-- Payment Options Matrix -->
+<div class="flex flex-col gap-space-sm">
+<!-- Method 1: Bank Transfer (SELECTED) -->
+<div class="p-space-lg rounded-lg bg-surface-container border-2 border-primary flex flex-col gap-space-md">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">account_balance</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-black">Chuyển khoản Doanh nghiệp (Ủy nhiệm chi / VietQR B2B)</span>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed text-caption font-bold px-2 py-0.5 rounded">Chiết khấu thêm 1%</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Xác thực tự động tức thì qua kết nối ngân hàng số Open Banking C83</p>
+</div>
+</div>
+<span class="w-5 h-5 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</span>
+</div>
+<!-- Bank Accounts Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-sm bg-surface-container-lowest p-space-md rounded-lg">
+<div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container-low">
+<span class="text-caption font-bold text-primary uppercase">Vietcombank - CN Sở Giao Dịch TP.HCM</span>
+<span class="font-title-md text-title-md text-on-surface font-mono font-bold tracking-wider">0071 0083 8383 88</span>
+<span class="text-caption text-on-surface-variant">CÔNG TY CỔ PHẦN TẬP ĐOÀN VẬT LIỆU C83</span>
+</div>
+<div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container-low">
+<span class="text-caption font-bold text-primary uppercase">BIDV - CN Nam Sài Gòn</span>
+<span class="font-title-md text-title-md text-on-surface font-mono font-bold tracking-wider">1300 8388 9999 01</span>
+<span class="text-caption text-on-surface-variant">CÔNG TY CỔ PHẦN TẬP ĐOÀN VẬT LIỆU C83</span>
+</div>
+</div>
+</div>
+<!-- Method 2: Credit Line -->
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container cursor-pointer flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-on-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">schedule</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-bold">Hạn mức công nợ 30 ngày (Credit Line Tier 1)</span>
+<span class="text-caption text-outline">Lãi suất 0%</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hạn mức khả dụng cho phép giải ngân: 1.500.000.000&nbsp;đ</p>
+</div>
+</div>
+<span class="w-5 h-5 rounded-full bg-surface-container-highest"></span>
+</div>
+<!-- Method 3: L/C Bank Guarantee -->
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container cursor-pointer flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-on-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-bold">Bảo lãnh Thư tín dụng (L/C) / Bảo lãnh thực hiện HĐ</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Phù hợp gói thầu dự án lớn &gt; 500 triệu đồng</p>
+</div>
+</div>
+<span class="w-5 h-5 rounded-full bg-surface-container-highest"></span>
+</div>
+<!-- Method 4: Corporate Card / VNPay B2B -->
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container cursor-pointer flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest text-on-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">credit_card</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-bold">Cổng Thẻ Doanh nghiệp Quốc tế &amp; Cổng VNPay B2B</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Thanh toán thẻ Visa Corporate, MasterCard Business</p>
+</div>
+</div>
+<span class="w-5 h-5 rounded-full bg-surface-container-highest"></span>
+</div>
+</div>
+<!-- E-INVOICE VAT SETTING -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex items-start gap-space-sm">
+<div class="pt-0.5">
+<div class="w-5 h-5 rounded bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+</div>
+<div class="flex-1">
+<div class="font-title-md text-title-md text-on-surface font-bold">Yêu cầu xuất Hóa đơn điện tử VAT (e-Invoice) theo Nghị định 123/2020/NĐ-CP</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                  Hệ thống tự động đồng bộ sang MST: <strong class="text-on-surface">0108388388</strong> và gửi file XML/PDF có chữ ký số C83 tới email kế toán doanh nghiệp:
+                  <span class="text-primary font-semibold">ketoan@deltavina.com.vn</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: STICKY SETTLEMENT PANEL (~38% width) -->
+<div class="w-full lg:w-[38%] sticky top-4 flex flex-col gap-space-md">
+<!-- Order Summary Card -->
+<div class="bg-surface-container-lowest rounded-lg p-space-lg shadow-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container-highest/60">
+<div>
+<span class="font-label-eyebrow text-label-eyebrow text-primary uppercase">QUYẾT TOÁN HỢP ĐỒNG</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-black">TỔNG HỢP CHI PHÍ</h3>
+</div>
+<div class="text-right">
+<span class="font-caption text-caption text-outline">Mã chứng từ</span>
+<div class="font-title-md text-title-md font-mono font-bold text-on-surface">#PO-2026-8849</div>
+</div>
+</div>
+<!-- Line Items Calculation -->
+<div class="flex flex-col gap-space-sm font-body-md text-body-md">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>Tạm tính tiền hàng (03 mặt hàng):</span>
+<span class="font-semibold text-on-surface font-mono">78.450.000&nbsp;đ</span>
+</div>
+<div class="flex justify-between items-center text-tertiary">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">sell</span>
+                  Chiết khấu đối tác VIP (Tier 1 - 5%):
+                </span>
+<span class="font-bold font-mono">-3.922.500&nbsp;đ</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<div class="flex flex-col">
+<span>Vận chuyển &amp; hạ cẩu công trình:</span>
+<span class="text-[11px] text-primary">Tài trợ 100% cho đơn &gt; 50 triệu</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="line-through text-outline font-caption text-caption">2.500.000&nbsp;đ</span>
+<span class="text-primary font-bold">0&nbsp;đ</span>
+</div>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>Thuế GTGT (VAT 10% sau chiết khấu):</span>
+<span class="font-semibold text-on-surface font-mono">7.452.750&nbsp;đ</span>
+</div>
+</div>
+<!-- Settlement Total Separator Block -->
+<div class="bg-surface-container p-space-md rounded-lg flex flex-col gap-1 mt-space-xs">
+<div class="flex justify-between items-baseline">
+<span class="font-title-md text-title-md font-black uppercase text-on-surface">TỔNG THANH TOÁN:</span>
+<div class="text-right">
+<span class="font-headline-md text-headline-md text-primary font-black font-mono leading-none">81.980.250</span>
+<span class="font-title-md text-title-md text-primary font-bold ml-1">đ</span>
+</div>
+</div>
+<div class="text-right text-[11px] text-outline font-semibold italic">Đã bao gồm thuế giá trị gia tăng 10%</div>
+<div class="text-caption text-caption text-on-surface-variant pt-1 border-t border-surface-container-highest/60 font-medium">
+                (Bằng chữ: <em>Tám mươi mốt triệu chín trăm tám mươi nghìn hai trăm năm mươi đồng</em>)
+              </div>
+</div>
+<!-- Primary CTAs -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<button class="w-full py-4 px-6 rounded-lg bg-gradient-to-r from-tertiary-fixed-dim via-tertiary-fixed to-tertiary-fixed-dim text-on-tertiary-fixed font-headline-sm text-headline-sm hover:brightness-105 transition-all shadow-lg shadow-tertiary/20 flex items-center justify-center gap-space-sm active:scale-[0.99]" type="button">
+<span>XÁC NHẬN ĐẶT HÀNG &amp; THANH TOÁN</span>
+<span class="material-symbols-outlined font-bold text-[22px]">arrow_forward</span>
+</button>
+<button class="w-full py-3 px-6 rounded-lg bg-surface-container-low hover:bg-surface-container text-primary font-label-button text-label-button transition-colors flex items-center justify-center gap-2" type="button">
+<span class="material-symbols-outlined text-[18px]">download</span>
+                Lưu bản chào giá / PO điện tử (.PDF)
+              </button>
+</div>
+<!-- Industrial Trust Badges -->
+<div class="flex flex-col gap-2 pt-space-sm border-t border-surface-container-highest/60">
+<div class="flex items-start gap-2 text-on-surface-variant font-caption text-caption">
+<span class="material-symbols-outlined text-primary text-[16px] shrink-0 mt-0.5">verified_user</span>
+<span><strong>Cam kết tiến độ bàn giao:</strong> Phạt chậm 0.5%/ngày theo điều khoản hợp đồng khung C83.</span>
+</div>
+<div class="flex items-start gap-2 text-on-surface-variant font-caption text-caption">
+<span class="material-symbols-outlined text-primary text-[16px] shrink-0 mt-0.5">description</span>
+<span><strong>Chứng chỉ CO/CQ:</strong> Bản gốc đi kèm phiếu xuất kho kiêm vận chuyển nội bộ.</span>
+</div>
+<div class="flex items-start gap-2 text-on-surface-variant font-caption text-caption">
+<span class="material-symbols-outlined text-primary text-[16px] shrink-0 mt-0.5">shield</span>
+<span><strong>Bảo hiểm vận chuyển:</strong> Bồi thường 100% rủi ro móp méo, trầy xước tới tận chân công trình.</span>
+</div>
+</div>
+</div>
+<!-- B2B Hotline Assistance -->
+<div class="bg-surface-container p-space-md rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">support_agent</span>
+</div>
+<div class="flex flex-col">
+<span class="text-caption font-bold text-on-surface uppercase">Kế toán &amp; Quản lý đơn hàng</span>
+<span class="font-title-md text-title-md text-primary font-bold">1900 8383 (Nhánh 3)</span>
+</div>
+</div>
+<span class="font-caption text-caption bg-surface-container-lowest px-2.5 py-1 rounded text-outline font-semibold">24/7 B2B</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></main><!-- ===== C83 GROUP FOOTER (chèn từ c83group.vn) ===== -->
+<footer class="c83-foot c83-site-footer" style="font-family:'Be Vietnam Pro',Arial,Helvetica,sans-serif;background:#0E1433;color:rgba(255,255,255,0.85)">
+<div style="background:linear-gradient(135deg,#1966B8 0%,#222A8C 100%)">
+<div style="max-width:1320px;margin:0 auto;padding:40px 24px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between">
+<div style="flex:1 1 520px;min-width:0">
+<h3 style="margin:0;font-size:30px;font-weight:900;color:#FFFFFF">Sẵn sàng hợp tác cùng C83 Group?</h3>
+<p style="margin:8px 0 0;color:rgba(255,255,255,0.85)">Đội ngũ chuyên gia của chúng tôi luôn sẵn sàng tư vấn giải pháp trọn gói cho dự án của bạn.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<a href="#" style="display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:8px;background:linear-gradient(135deg,#FDB913 0%,#F39C12 100%);color:#141A3A;font-weight:700;text-decoration:none;box-shadow:0 12px 30px -12px rgba(243,156,18,0.6)">Gửi yêu cầu tư vấn</a>
+<a href="tel:1900633483" style="display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 24px;border-radius:8px;border:2px solid rgba(255,255,255,0.4);color:#FFFFFF;font-weight:700;text-decoration:none"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>1900 633 483</a>
+</div>
+</div>
+</div>
+<div style="max-width:1320px;margin:0 auto;padding:56px 24px;display:flex;flex-wrap:wrap;gap:40px">
+<div style="flex:1.4 1 300px;min-width:0">
+<img src="../assets/c83-logo.png" alt="C83 Group" style="height:56px;width:auto;display:block;filter:brightness(0) invert(1)">
+<p style="margin:20px 0 0;font-size:14px;line-height:1.7;color:rgba(255,255,255,0.7)">Hệ sinh thái 10 công ty thành viên kiến tạo giá trị toàn diện — từ vật liệu, công nghệ đến thi công công trình quy mô lớn.</p>
+<ul style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li style="display:flex;gap:10px;align-items:flex-start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FDB913" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>L8-122 Khu đô thị Louis, Phường Hoàng Mai, TP Hà Nội, Việt Nam</li>
+<li style="display:flex;gap:10px;align-items:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FDB913" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>Hotline: 1900 633 483</li>
+<li style="display:flex;gap:10px;align-items:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FDB913" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>info@c83group.vn</li>
+</ul>
+</div>
+<div style="flex:1 1 180px;min-width:0">
+<h4 style="margin:0 0 16px;font-size:13px;font-weight:900;letter-spacing:0.15em;text-transform:uppercase;color:#FFFFFF"><span style="border-bottom:2px solid #FDB913;padding-bottom:4px">Về C83 Group</span></h4>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Tổng quan tập đoàn</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Tầm nhìn – Sứ mệnh</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">HĐQT & Ban điều hành</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Lịch sử hình thành</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Trách nhiệm xã hội</a></li>
+</ul>
+</div>
+<div style="flex:1 1 180px;min-width:0">
+<h4 style="margin:0 0 16px;font-size:13px;font-weight:900;letter-spacing:0.15em;text-transform:uppercase;color:#FFFFFF"><span style="border-bottom:2px solid #FDB913;padding-bottom:4px">Hệ sinh thái</span></h4>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Công ty thành viên</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Sơ đồ hệ sinh thái</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Lĩnh vực hoạt động</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Dự án tiêu biểu</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Đối tác chiến lược</a></li>
+</ul>
+</div>
+<div style="flex:1 1 180px;min-width:0">
+<h4 style="margin:0 0 16px;font-size:13px;font-weight:900;letter-spacing:0.15em;text-transform:uppercase;color:#FFFFFF"><span style="border-bottom:2px solid #FDB913;padding-bottom:4px">Phát triển</span></h4>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Chiến lược ESG</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Văn hóa doanh nghiệp</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Hoạt động cộng đồng</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Báo cáo bền vững</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Tuyển dụng</a></li>
+</ul>
+</div>
+</div>
+<div style="border-top:1px solid rgba(255,255,255,0.1)">
+<div style="max-width:1320px;margin:0 auto;padding:20px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;font-size:12px;color:rgba(255,255,255,0.6)">
+<span>&copy; 2026 C83 Group. All rights reserved.</span>
+<div style="display:flex;gap:20px">
+<a href="#" style="color:rgba(255,255,255,0.6);text-decoration:none">Chính sách bảo mật</a>
+<a href="#" style="color:rgba(255,255,255,0.6);text-decoration:none">Điều khoản sử dụng</a>
+<a href="#" style="color:rgba(255,255,255,0.6);text-decoration:none">Sitemap</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- ===== /C83 GROUP FOOTER ===== -->
+</body></html>

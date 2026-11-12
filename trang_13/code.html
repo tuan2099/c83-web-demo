@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"primary-fixed":"#d1e4ff","error":"#ba1a1a","surface-variant":"#dbe1ff","tertiary-fixed":"#ffdea6","surface-container-low":"#f2f3ff","background":"#faf8ff","surface-container":"#ebedff","primary-container":"#1966b8","secondary-fixed-dim":"#bbc3ff","on-error-container":"#93000a","on-secondary-fixed":"#000e5e","outline":"#717882","tertiary-container":"#946a00","secondary-fixed":"#dfe0ff","error-container":"#ffdad6","tertiary":"#755300","secondary":"#4957ae","on-background":"#111a36","on-surface":"#111a36","on-tertiary-fixed-variant":"#5e4200","surface-tint":"#0061a2","surface":"#f8fafd","on-tertiary":"#ffffff","on-primary-fixed-variant":"#00497c","on-secondary":"#ffffff","inverse-surface":"#262f4c","on-error":"#ffffff","outline-variant":"#c0c7d2","primary":"#1966b8","surface-dim":"#d0d9fe","secondary-container":"#94a2ff","on-secondary-fixed-variant":"#303e95","surface-container-high":"#e3e7ff","inverse-primary":"#9dcaff","on-tertiary-fixed":"#271900","inverse-on-surface":"#eff0ff","on-primary-container":"#f5f7ff","primary-fixed-dim":"#9dcaff","on-secondary-container":"#26348b","on-tertiary-container":"#fff6ec","surface-container-highest":"#dbe1ff","surface-bright":"#faf8ff","on-primary-fixed":"#001d36","on-primary":"#ffffff","on-surface-variant":"#414751","surface-container-lowest":"#ffffff","tertiary-fixed-dim":"#ffbb16"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-mobile":"1rem","space-xl":"2.5rem","space-xs":"0.25rem","space-md":"1rem","space-lg":"1.5rem","gutter-mobile":"1rem","gutter":"1.5rem","space-sm":"0.5rem","margin":"2rem"},"fontFamily":{"title-md":["Be Vietnam Pro"],"body-md":["Be Vietnam Pro"],"body-sm":["Be Vietnam Pro"],"body-lg":["Be Vietnam Pro"],"caption":["Be Vietnam Pro"],"headline-sm":["Be Vietnam Pro"],"headline-lg-mobile":["Be Vietnam Pro"],"headline-xl-mobile":["Be Vietnam Pro"],"label-eyebrow":["Be Vietnam Pro"],"headline-lg":["Be Vietnam Pro"],"headline-md":["Be Vietnam Pro"],"label-button":["Be Vietnam Pro"],"headline-xl":["Be Vietnam Pro"]},"fontSize":{"title-md":["16px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"caption":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"500"}],"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"800"}],"headline-lg-mobile":["28px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"900"}],"headline-xl-mobile":["36px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"900"}],"label-eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.25em","fontWeight":"800"}],"headline-lg":["40px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"900"}],"headline-md":["28px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"900"}],"label-button":["14px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"700"}],"headline-xl":["56px",{"lineHeight":"60px","letterSpacing":"-0.025em","fontWeight":"900"}]}}}}</script></head><body class="bg-[#f4f6f9] font-body-md text-body-md text-on-surface antialiased">
+<style class="c83-hf-style">.c83-nav a:hover,.c83-foot a:hover{color:#FDB913 !important}</style>
+<!-- ===== C83 GROUP HEADER (chèn từ c83group.vn) ===== -->
+<header class="c83-site-header" style="font-family:'Be Vietnam Pro',Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#1966B8 0%,#222A8C 100%);color:#F9FAFB">
+<div style="border-bottom:1px solid rgba(255,255,255,0.1)">
+<div style="max-width:1320px;margin:0 auto;padding:0 24px;min-height:36px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;font-size:12px;color:rgba(255,255,255,0.9)">
+<span>Connect &ndash; Construct &ndash; Capitalize</span>
+<div class="c83-nav" style="display:flex;align-items:center;gap:20px">
+<a href="tel:1900633483" style="color:rgba(255,255,255,0.9);text-decoration:none;display:inline-flex;align-items:center;gap:6px"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>1900 633 483</a>
+<a href="mailto:info@c83group.vn" style="color:rgba(255,255,255,0.9);text-decoration:none">info@c83group.vn</a>
+<button type="button" style="background:none;border:0;color:rgba(255,255,255,0.9);font:inherit;display:inline-flex;align-items:center;gap:4px;cursor:pointer;padding:0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>VN | EN</button>
+</div>
+</div>
+</div>
+<div style="max-width:1320px;margin:0 auto;padding:0 24px;min-height:80px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+<a href="#" style="display:block;width:158px;height:48px"><img src="../assets/c83-logo.png" alt="C83 Group" style="width:100%;height:100%;object-fit:contain;display:block"></a>
+<nav class="c83-nav" aria-label="Điều hướng chính" style="display:flex;flex-wrap:wrap;align-items:center;gap:4px">
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Về tập đoàn<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Đơn vị thành viên<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">ESG<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Lĩnh vực<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Năng lực<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="opacity:0.7"><path d="m6 9 6 6 6-6"></path></svg></a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Tin tức</a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Tuyển dụng</a>
+<a href="#" style="display:inline-flex;align-items:center;gap:4px;padding:8px 12px;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:0.02em">Liên hệ</a>
+</nav>
+<a href="#" style="display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 18px;border-radius:8px;background:linear-gradient(135deg,#FDB913 0%,#F39C12 100%);color:#141A3A;text-decoration:none;font-weight:700;font-size:14px;box-shadow:0 12px 30px -12px rgba(243,156,18,0.6)">Tư vấn ngay</a>
+</div>
+</header>
+<!-- ===== /C83 GROUP HEADER ===== -->
+<main class="w-full min-h-screen bg-[#f4f6f9]"><div class="flex flex-col w-full">
+<!-- TECHNICAL TOOLBAR / SUB-HEADER (NO GENERAL HEADER) -->
+<section class="w-full bg-[#1b253b] text-white border-b-2 border-[#1966b8]">
+<div class="max-w-[1320px] mx-auto px-6 md:px-6 py-4">
+<!-- Top Meta Line: Breadcrumb & Spec Status -->
+<div class="flex flex-wrap items-center justify-between gap-3 text-xs text-slate-300 pb-3 border-b border-slate-700/60 font-medium">
+<nav class="flex items-center gap-1.5">
+<a class="hover:text-white transition-colors flex items-center gap-1 text-slate-300" href="#">
+<span class="material-symbols-outlined text-[15px]">home</span> Trang chủ
+        </a>
+<span class="text-slate-500">/</span>
+<a class="hover:text-white transition-colors text-slate-300" href="#">Nhôm Kỹ Thuật Công Nghiệp</a>
+<span class="text-slate-500">/</span>
+<span class="text-[#fdb913] font-semibold">Danh mục Profile &amp; Vật tư C83</span>
+</nav>
+<div class="flex items-center gap-4 text-[11px] uppercase tracking-wider text-slate-300">
+<span class="flex items-center gap-1 text-emerald-400 font-semibold"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Nhà máy Extrusion: Sẵn sàng xuất xưởng</span>
+<span class="hidden md:inline text-slate-600">|</span>
+<span class="hidden md:inline">Quy chuẩn kiểm định: JIS H4100 / ASTM B221</span>
+</div>
+</div>
+<!-- Main Title & Technical Controls -->
+<div class="pt-3.5 flex flex-col xl:flex-row xl:items-center justify-between gap-4">
+<div>
+<div class="flex items-center gap-2.5">
+<span class="px-2 py-0.5 rounded text-[11px] font-bold uppercase tracking-wider bg-[#1966b8] text-white">C83 Vanguard Catalog</span>
+<span class="text-xs text-[#fdb913] font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">verified</span> 100% Hồ sơ CO/CQ Điện tử
+          </span>
+</div>
+<h1 class="text-xl md:text-2xl lg:text-[26px] font-black text-white tracking-tight mt-1 flex items-baseline gap-3">
+          DANH MỤC VẬT TƯ &amp; PROFILE CÔNG NGHIỆP C83
+          <span class="text-sm font-semibold text-slate-400 font-mono">(142 mã vật tư tiêu chuẩn)</span>
+</h1>
+</div>
+<!-- Quick Search & Mode Switcher -->
+<div class="flex flex-wrap items-center gap-3">
+<!-- Search Input -->
+<div class="relative w-full sm:w-80">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-[18px]">search</span>
+<input class="w-full h-10 pl-9 pr-3 rounded bg-slate-900/80 border border-slate-700 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-[#1966b8] focus:ring-1 focus:ring-[#1966b8] transition-all font-mono" placeholder="Tìm mã profile, mác nhôm (JIS/ASTM/GB)..." type="text"/>
+</div>
+<!-- View Mode Switch -->
+<div class="flex items-center bg-slate-900 p-1 rounded border border-slate-700">
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-[#1966b8] text-white text-xs font-semibold shadow-sm" title="Lưới thẻ kỹ thuật" type="button">
+<span class="material-symbols-outlined text-[16px]">grid_view</span>
+<span class="hidden sm:inline">Thẻ Spec</span>
+</button>
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded text-slate-300 hover:text-white text-xs font-medium transition-colors" href="#quick-matrix" title="Bảng thông số so sánh Matrix">
+<span class="material-symbols-outlined text-[16px]">table_chart</span>
+<span class="hidden sm:inline">Bảng Matrix</span>
+</a>
+</div>
+<!-- RFQ Batch Action Button -->
+<button class="h-10 px-4 rounded bg-[#fdb913] hover:bg-[#e5a60e] text-[#111a36] text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 shadow transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">post_add</span>
+<span>Báo giá BOQ nhanh</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- MAIN 2-COLUMN INDUSTRIAL WORKSPACE -->
+<section class="w-full max-w-[1320px] mx-auto px-6 md:px-6 py-6 md:py-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+<!-- LEFT COLUMN: STICKY TECHNICAL FILTER & NAV (~280px / lg:col-span-3) -->
+<aside class="lg:col-span-3 flex flex-col gap-5 lg:sticky lg:top-4">
+<div class="bg-white rounded border border-slate-200 shadow-sm divide-y divide-slate-100 overflow-hidden">
+<!-- Filter Header -->
+<div class="p-4 bg-slate-50 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#1966b8] text-[20px]">tune</span>
+<h2 class="text-xs font-black uppercase tracking-wider text-slate-800">Bộ Lọc Kỹ Thuật (Spec Filters)</h2>
+</div>
+<button class="text-[11px] text-slate-500 hover:text-[#1966b8] font-semibold underline" type="button">Đặt lại</button>
+</div>
+<!-- Filter Group 1: Multi-level Category -->
+<div class="p-4">
+<div class="flex items-center justify-between mb-2.5">
+<span class="text-xs font-bold uppercase tracking-wider text-slate-700">Hệ Thống Phân Loại</span>
+<span class="text-[10px] bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono">5 Nhóm</span>
+</div>
+<div class="space-y-2 text-xs">
+<label class="flex items-center justify-between cursor-pointer group">
+<span class="flex items-center gap-2 text-slate-900 font-semibold group-hover:text-[#1966b8]">
+<input checked="" class="w-3.5 h-3.5 rounded text-[#1966b8] border-slate-300 focus:ring-[#1966b8]" type="checkbox"/>
+<span>Hệ nhôm mặt dựng &amp; Stick</span>
+</span>
+<span class="font-mono text-[11px] text-slate-400 group-hover:text-[#1966b8]">(54)</span>
+</label>
+<label class="flex items-center justify-between cursor-pointer group">
+<span class="flex items-center gap-2 text-slate-700 group-hover:text-[#1966b8]">
+<input class="w-3.5 h-3.5 rounded text-[#1966b8] border-slate-300 focus:ring-[#1966b8]" type="checkbox"/>
+<span>Lam chắn nắng Aerofoil &amp; Box</span>
+</span>
+<span class="font-mono text-[11px] text-slate-400 group-hover:text-[#1966b8]">(26)</span>
+</label>
+<label class="flex items-center justify-between cursor-pointer group">
+<span class="flex items-center gap-2 text-slate-700 group-hover:text-[#1966b8]">
+<input class="w-3.5 h-3.5 rounded text-[#1966b8] border-slate-300 focus:ring-[#1966b8]" type="checkbox"/>
+<span>Nhôm công nghiệp tản nhiệt</span>
+</span>
+<span class="font-mono text-[11px] text-slate-400 group-hover:text-[#1966b8]">(19)</span>
+</label>
+<label class="flex items-center justify-between cursor-pointer group">
+<span class="flex items-center gap-2 text-slate-700 group-hover:text-[#1966b8]">
+<input class="w-3.5 h-3.5 rounded text-[#1966b8] border-slate-300 focus:ring-[#1966b8]" type="checkbox"/>
+<span>Phụ kiện &amp; Ke kết cấu chịu tải</span>
+</span>
+<span class="font-mono text-[11px] text-slate-400 group-hover:text-[#1966b8]">(31)</span>
+</label>
+<label class="flex items-center justify-between cursor-pointer group">
+<span class="flex items-center gap-2 text-slate-700 group-hover:text-[#1966b8]">
+<input class="w-3.5 h-3.5 rounded text-[#1966b8] border-slate-300 focus:ring-[#1966b8]" type="checkbox"/>
+<span>Keo kết cấu Silicone Dowsil</span>
+</span>
+<span class="font-mono text-[11px] text-slate-400 group-hover:text-[#1966b8]">(12)</span>
+</label>
+</div>
+</div>
+<!-- Filter Group 2: Alloy Grade (Mác Nhôm) -->
+<div class="p-4">
+<div class="flex items-center justify-between mb-2.5">
+<span class="text-xs font-bold uppercase tracking-wider text-slate-700">Mác Nhôm Tiêu Chuẩn</span>
+<span class="material-symbols-outlined text-[16px] text-slate-400">info</span>
+</div>
+<div class="grid grid-cols-1 gap-2 text-xs">
+<label class="flex items-center justify-between p-2 rounded bg-slate-50 border border-slate-200 cursor-pointer hover:border-[#1966b8] transition-colors">
+<div class="flex items-center gap-2 font-mono font-bold text-slate-800">
+<input checked="" class="text-[#1966b8] focus:ring-[#1966b8]" name="alloy" type="radio"/>
+<span>Alloy 6063-T5</span>
+</div>
+<span class="text-[10px] bg-slate-200 text-slate-700 px-1 rounded">Dự án 80%</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded bg-slate-50 border border-slate-200 cursor-pointer hover:border-[#1966b8] transition-colors">
+<div class="flex items-center gap-2 font-mono font-bold text-slate-800">
+<input class="text-[#1966b8] focus:ring-[#1966b8]" name="alloy" type="radio"/>
+<span>Alloy 6063-T6</span>
+</div>
+<span class="text-[10px] bg-blue-100 text-blue-800 px-1 rounded">Cường độ cao</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded bg-slate-50 border border-slate-200 cursor-pointer hover:border-[#1966b8] transition-colors">
+<div class="flex items-center gap-2 font-mono font-bold text-slate-800">
+<input class="text-[#1966b8] focus:ring-[#1966b8]" name="alloy" type="radio"/>
+<span>Alloy 6061-T6</span>
+</div>
+<span class="text-[10px] bg-amber-100 text-amber-800 px-1 rounded">Chịu lực nặng</span>
+</label>
+</div>
+</div>
+<!-- Filter Group 3: Surface Treatment (Xử lý bề mặt) -->
+<div class="p-4">
+<div class="flex items-center justify-between mb-2.5">
+<span class="text-xs font-bold uppercase tracking-wider text-slate-700">Xử Lý Bề Mặt (Finish)</span>
+</div>
+<div class="space-y-2 text-xs">
+<label class="flex items-center gap-2 cursor-pointer text-slate-800">
+<input checked="" class="w-3.5 h-3.5 rounded text-[#1966b8] border-slate-300 focus:ring-[#1966b8]" type="checkbox"/>
+<span>Anodized ED Class 1 (&gt;15-20μm)</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer text-slate-700">
+<input class="w-3.5 h-3.5 rounded text-[#1966b8] border-slate-300 focus:ring-[#1966b8]" type="checkbox"/>
+<span>Sơn tĩnh điện PVDF 3-Coats (AAMA 2605)</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer text-slate-700">
+<input class="w-3.5 h-3.5 rounded text-[#1966b8] border-slate-300 focus:ring-[#1966b8]" type="checkbox"/>
+<span>Sơn bột tĩnh điện AkzoNobel / Tiger</span>
+</label>
+</div>
+</div>
+<!-- Filter Group 4: Stock & Lead Time (Trạng thái kho) -->
+<div class="p-4">
+<span class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2.5">Trạng Thái Cung Ứng</span>
+<div class="space-y-2 text-xs">
+<label class="flex items-center justify-between cursor-pointer p-1.5 rounded hover:bg-slate-50">
+<div class="flex items-center gap-2 text-emerald-800 font-medium">
+<input checked="" class="w-3.5 h-3.5 rounded text-emerald-600 focus:ring-emerald-500" type="checkbox"/>
+<span>Sẵn kho nhà máy (Xuất ngay)</span>
+</div>
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+</label>
+<label class="flex items-center justify-between cursor-pointer p-1.5 rounded hover:bg-slate-50">
+<div class="flex items-center gap-2 text-slate-700 font-medium">
+<input class="w-3.5 h-3.5 rounded text-[#1966b8] focus:ring-[#1966b8]" type="checkbox"/>
+<span>Đặt ép theo BOQ (7-12 ngày)</span>
+</div>
+<span class="w-2 h-2 rounded-full bg-blue-500"></span>
+</label>
+</div>
+</div>
+<!-- Filter Group 5: Sample & Price Filter -->
+<div class="p-4 bg-slate-50/60">
+<span class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Đặc Quyền Kỹ Sư / Dự Án</span>
+<label class="flex items-start gap-2 text-xs text-slate-800 cursor-pointer mb-3">
+<input checked="" class="mt-0.5 w-3.5 h-3.5 rounded text-[#1966b8] border-slate-300 focus:ring-[#1966b8]" type="checkbox"/>
+<span>Chỉ xem các mã hỗ trợ <strong>gửi mẫu Profile thực tế</strong> tận chân công trình</span>
+</label>
+<button class="w-full py-2 bg-[#1966b8] hover:bg-[#14508f] text-white text-xs font-bold uppercase rounded shadow-sm transition-colors text-center" type="button">
+            Áp Dụng Bộ Lọc (54 Mã)
+          </button>
+</div>
+</div>
+<!-- Quick Engineering Support Box -->
+<div class="bg-gradient-to-br from-[#1b253b] to-[#121a2d] p-4 rounded border border-slate-700 text-white text-xs">
+<div class="flex items-center gap-2 text-[#fdb913] font-bold mb-1.5">
+<span class="material-symbols-outlined text-[18px]">architecture</span>
+<span class="uppercase tracking-wider">Hỗ Trợ Shop Drawing &amp; Bóc Tách</span>
+</div>
+<p class="text-slate-300 text-[11px] leading-relaxed mb-3">
+          Gửi file bản vẽ CAD/DWG mặt dựng, đội ngũ kỹ thuật C83 hỗ trợ tối ưu tỷ lệ hao hụt &amp; bóc khối lượng BOQ miễn phí.
+        </p>
+<div class="flex items-center justify-between pt-1 border-t border-slate-700/80">
+<span class="font-mono text-[#fdb913] font-black text-sm">HOTLINE: 1900 8383</span>
+<a class="px-2 py-1 bg-white/10 hover:bg-white/20 rounded text-[11px] font-semibold text-white transition-colors" href="#">Tải CAD DWG</a>
+</div>
+</div>
+</aside>
+<!-- RIGHT COLUMN: MAIN CONTENT (DENSE TECHNICAL SPEC CARDS & MATRIX) (~lg:col-span-9) -->
+<div class="lg:col-span-9 flex flex-col gap-6">
+<!-- QUICK APPLICATION TABS BAR -->
+<div class="bg-white rounded border border-slate-200 p-2 shadow-sm flex flex-wrap items-center justify-between gap-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<button class="px-3 py-1.5 rounded bg-[#1966b8] text-white text-xs font-bold tracking-tight shadow-sm flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[15px]">domain</span>
+<span>Mặt Dựng Cao Tầng (Stick/Unitized)</span>
+</button>
+<button class="px-3 py-1.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold tracking-tight transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[15px]">warehouse</span>
+<span>Khung Bao Nhà Xưởng Công Nghiệp</span>
+</button>
+<button class="px-3 py-1.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold tracking-tight transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[15px]">memory</span>
+<span>Profile Tản Nhiệt Điện Tử</span>
+</button>
+<button class="px-3 py-1.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold tracking-tight transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[15px]">window</span>
+<span>Vách Ngăn &amp; Nội Thất Kính</span>
+</button>
+</div>
+<div class="text-[11px] text-slate-500 font-mono pr-2">
+          Hiển thị: <strong>1 - 6</strong> / 54 profile phù hợp
+        </div>
+</div>
+<!-- DENSE TECHNICAL PRODUCT SPEC CARDS GRID (3 COLUMNS) -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+<!-- SPEC CARD 1: Profile Đố Đứng Mặt Dựng CW-140 -->
+<article class="bg-white rounded border border-slate-200 hover:border-[#1966b8] hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+<div class="p-3.5">
+<!-- Header Spec Badges -->
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="font-mono text-[11px] font-bold text-[#1966b8] bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200">SKU: C83-CW140M</span>
+<span class="text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider bg-emerald-100 text-emerald-800">Sẵn kho: 12.000m</span>
+</div>
+<!-- Technical Blueprint / Cutaway Preview -->
+<div class="relative w-full h-36 bg-slate-50 rounded border border-slate-100 overflow-hidden flex items-center justify-center p-2 mb-3">
+<img alt="Mặt cắt nhôm thanh đố đứng CW-140 C83" class="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-f6lDZ8c_I0W7ktfS2AudmQXK_8PioY9ZpsDODTdFsZXuq4bC8AadcOTWaUtCfLThYuAmLa2KmZS8P160yKFqKpV_XM-zvPwFUOXBWyeFVJlnbRMH-cPALoqWHxDjiqWiVG9bjq3xeAJ_10bTHPg2joBmpZic78ofA1JL2dz1cW1eAIuqWviLZkm21MtuCtPrDD_GFVHfCEGFLwZYAAKWPt5gDLaf45gMGXfbA7fY"/>
+<span class="absolute bottom-1 left-1 bg-slate-800/80 text-white font-mono text-[9px] px-1 rounded">Bản vẽ CAD: REV-03</span>
+<span class="absolute top-1 right-1 bg-white/90 text-slate-700 font-mono text-[9px] px-1 rounded border border-slate-200">Mác: 6063-T6</span>
+</div>
+<!-- Title & Standard Tags -->
+<h3 class="text-sm font-bold text-slate-900 group-hover:text-[#1966b8] line-clamp-2 leading-snug mb-2">
+              Thanh Đố Đứng Mặt Dựng Chịu Gió Bão C83-CW140 (140x55mm)
+            </h3>
+<div class="flex flex-wrap gap-1 mb-3">
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">JIS H4100:2015</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">ASTM E330</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Anodized 20μm</span>
+</div>
+<!-- Mini Technical Spec Table -->
+<div class="bg-slate-50 rounded p-2 text-[11px] font-mono border border-slate-100 space-y-1 text-slate-700">
+<div class="flex justify-between">
+<span class="text-slate-500">Độ dày danh định:</span>
+<span class="font-bold text-slate-900">2.5 mm (±0.15)</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Trọng lượng định mức:</span>
+<span class="font-bold text-slate-900">2.680 kg/m</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Chiều dài chuẩn:</span>
+<span class="font-bold text-slate-900">6.00 m / Cây</span>
+</div>
+</div>
+</div>
+<!-- Card Footer: Pricing & 2 B2B Action Buttons -->
+<div class="p-3.5 bg-slate-50/70 border-t border-slate-100">
+<div class="flex items-baseline justify-between mb-2.5">
+<div>
+<span class="text-[10px] text-slate-500 block uppercase">Đơn giá niêm yết:</span>
+<span class="text-base font-black text-slate-900 font-mono">1.340.000&nbsp;₫</span>
+<span class="text-[10px] text-slate-500">/ Cây (Đã VAT)</span>
+</div>
+<span class="text-[10px] text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded font-medium border border-blue-100">CK tới 18% BOQ</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<button class="py-2 px-2 rounded bg-[#1966b8] hover:bg-[#14508f] text-white text-xs font-bold flex items-center justify-center gap-1 transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[15px]">add_shopping_cart</span>
+<span>Thêm giỏ</span>
+</button>
+<button class="py-2 px-2 rounded bg-[#fdb913] hover:bg-[#e5a60e] text-[#111a36] text-xs font-bold flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[15px]">science</span>
+<span>Lấy mẫu / RFQ</span>
+</button>
+</div>
+</div>
+</article>
+<!-- SPEC CARD 2: Lam chắn nắng Aerofoil C83-AF200 -->
+<article class="bg-white rounded border border-slate-200 hover:border-[#1966b8] hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+<div class="p-3.5">
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="font-mono text-[11px] font-bold text-[#1966b8] bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200">SKU: C83-AF200</span>
+<span class="text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider bg-emerald-100 text-emerald-800">Sẵn kho: 8.500m</span>
+</div>
+<div class="relative w-full h-36 bg-slate-50 rounded border border-slate-100 overflow-hidden flex items-center justify-center p-2 mb-3">
+<img alt="Mặt cắt lam chắn nắng hình thoi Aerofoil C83-AF200" class="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBO40nZ3F17SsH4jjZ2Z92kMTNe3-x38oj3Qn7nzxBACycWDbexVLiHP9iFihu6mbwXHq8_GV52CuDtxdYk5w2wRlJ-COyPt1D6yKmn6cNNNKQ8UC0gw36qmJ_uH4FOe20USImeROa1WIK1eudZmZ6aHrlfhN6q3ClVFzvHWLevs1wq5MBRGgFrUfS-sW2Yhln387ykr1s5U6llBYKGhaZW5QX9ZpWTQTSVy1CVEp8H"/>
+<span class="absolute bottom-1 left-1 bg-slate-800/80 text-white font-mono text-[9px] px-1 rounded">Bản vẽ CAD: AF-200B</span>
+<span class="absolute top-1 right-1 bg-white/90 text-slate-700 font-mono text-[9px] px-1 rounded border border-slate-200">Mác: 6063-T5</span>
+</div>
+<h3 class="text-sm font-bold text-slate-900 group-hover:text-[#1966b8] line-clamp-2 leading-snug mb-2">
+              Lam Chắn Nắng Hình Thoi Aerofoil C83-AF200 Sơn PVDF 3-Lớp
+            </h3>
+<div class="flex flex-wrap gap-1 mb-3">
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">PVDF AAMA 2605</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Tự làm sạch</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Bảo hành 20 năm</span>
+</div>
+<div class="bg-slate-50 rounded p-2 text-[11px] font-mono border border-slate-100 space-y-1 text-slate-700">
+<div class="flex justify-between">
+<span class="text-slate-500">Độ dày danh định:</span>
+<span class="font-bold text-slate-900">1.8 mm - 2.0 mm</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Trọng lượng định mức:</span>
+<span class="font-bold text-slate-900">2.140 kg/m</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Chiều dài chuẩn:</span>
+<span class="font-bold text-slate-900">6.00 m (Cắt quy cách)</span>
+</div>
+</div>
+</div>
+<div class="p-3.5 bg-slate-50/70 border-t border-slate-100">
+<div class="flex items-baseline justify-between mb-2.5">
+<div>
+<span class="text-[10px] text-slate-500 block uppercase">Đơn giá niêm yết:</span>
+<span class="text-base font-black text-slate-900 font-mono">1.180.000&nbsp;₫</span>
+<span class="text-[10px] text-slate-500">/ Cây 6m</span>
+</div>
+<span class="text-[10px] text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded font-medium border border-emerald-100">Có màu Metallic</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<button class="py-2 px-2 rounded bg-[#1966b8] hover:bg-[#14508f] text-white text-xs font-bold flex items-center justify-center gap-1 transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[15px]">add_shopping_cart</span>
+<span>Thêm giỏ</span>
+</button>
+<button class="py-2 px-2 rounded bg-[#fdb913] hover:bg-[#e5a60e] text-[#111a36] text-xs font-bold flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[15px]">science</span>
+<span>Lấy mẫu / RFQ</span>
+</button>
+</div>
+</div>
+</article>
+<!-- SPEC CARD 3: Profile Nhôm Tản Nhiệt Công Nghiệp Heatsink -->
+<article class="bg-white rounded border border-slate-200 hover:border-[#1966b8] hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+<div class="p-3.5">
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="font-mono text-[11px] font-bold text-[#1966b8] bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200">SKU: C83-HS180T</span>
+<span class="text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider bg-blue-100 text-blue-800">Đặt ép theo BOQ</span>
+</div>
+<div class="relative w-full h-36 bg-slate-50 rounded border border-slate-100 overflow-hidden flex items-center justify-center p-2 mb-3">
+<img alt="Profile nhôm tản nhiệt công nghiệp Heatsink C83" class="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPJOHIRhnpEs_YKATdfYNtpj8w6OBcUTp18Q7ApMoYZofL4Y1zUSTMgAjNnTU9qDEJtVlblKjRQcKs2a1D1XFjqLTjii7uUR5eRUl7lWjsMWuOQkC-rX6vZTGHRNbt8ZYNuRaVSAQVVXQUkmqs4mU28dy-JrNIYL-mObBhqCsDKoDiKF6XlRwvFJg2OuhsyCZCnA6VSJ0e6fDo_mT_OpSLwq-H7NN8L8fSECZn3ubO"/>
+<span class="absolute bottom-1 left-1 bg-slate-800/80 text-white font-mono text-[9px] px-1 rounded">Bản vẽ CAD: HS-CORE-A</span>
+<span class="absolute top-1 right-1 bg-white/90 text-slate-700 font-mono text-[9px] px-1 rounded border border-slate-200">Mác: 6061-T6</span>
+</div>
+<h3 class="text-sm font-bold text-slate-900 group-hover:text-[#1966b8] line-clamp-2 leading-snug mb-2">
+              Profile Nhôm Tản Nhiệt Điện Tử Heatsink Rãnh Sâu Đa Hướng C83-HS180
+            </h3>
+<div class="flex flex-wrap gap-1 mb-3">
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Dẫn nhiệt &gt;205 W/m.K</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Black Anodized</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">RoHS Compliant</span>
+</div>
+<div class="bg-slate-50 rounded p-2 text-[11px] font-mono border border-slate-100 space-y-1 text-slate-700">
+<div class="flex justify-between">
+<span class="text-slate-500">Kích thước tiết diện:</span>
+<span class="font-bold text-slate-900">180 x 42 mm</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Số cánh tản nhiệt:</span>
+<span class="font-bold text-slate-900">24 Fin rãnh micro</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Khối lượng định mức:</span>
+<span class="font-bold text-slate-900">4.350 kg/m</span>
+</div>
+</div>
+</div>
+<div class="p-3.5 bg-slate-50/70 border-t border-slate-100">
+<div class="flex items-baseline justify-between mb-2.5">
+<div>
+<span class="text-[10px] text-slate-500 block uppercase">Chính sách giá:</span>
+<span class="text-sm font-bold text-[#755300] bg-amber-50 px-1.5 py-0.5 rounded border border-amber-200">Báo giá theo BOQ</span>
+<span class="text-[10px] text-slate-500 ml-1">Đơn giá/kg</span>
+</div>
+<span class="text-[10px] text-slate-500 font-mono">MOQ: 500 kg</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<button class="py-2 px-2 rounded border border-[#1966b8] text-[#1966b8] hover:bg-blue-50 text-xs font-bold flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[15px]">request_quote</span>
+<span>Yêu cầu giá</span>
+</button>
+<button class="py-2 px-2 rounded bg-[#fdb913] hover:bg-[#e5a60e] text-[#111a36] text-xs font-bold flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[15px]">science</span>
+<span>Lấy mẫu / RFQ</span>
+</button>
+</div>
+</div>
+</article>
+<!-- SPEC CARD 4: Bản Lề Sàn Thủy Lực C83-Master Series -->
+<article class="bg-white rounded border border-slate-200 hover:border-[#1966b8] hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+<div class="p-3.5">
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="font-mono text-[11px] font-bold text-[#1966b8] bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200">SKU: C83-FS150</span>
+<span class="text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider bg-emerald-100 text-emerald-800">Sẵn kho: 450 bộ</span>
+</div>
+<div class="relative w-full h-36 bg-slate-50 rounded border border-slate-100 overflow-hidden flex items-center justify-center p-2 mb-3">
+<img alt="Bản lề sàn thủy lực Inox 304 tải 150kg C83" class="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzy0E30dEkhZuLLb---OkZbacbWrh13M1lTmCs_M3-fxnb6S5V6N3bvNnX7XDYbEuU2BkvlwSMa3vufRetRl0KVr2019up2lQczwD1NccZKAg7jKqi8aNFgagwCr3CT-Vc7z1q00FVb5P-tfuCGvQpLIQM_nFTzYOP3ZtbngJweuRVAvlgooRbXWPUPEtbR_rJNVwf8QvgZ2cvxuK4niaddjloNgkoCYXaM1rPOnxD"/>
+<span class="absolute bottom-1 left-1 bg-slate-800/80 text-white font-mono text-[9px] px-1 rounded">DIN EN 1154:2003</span>
+<span class="absolute top-1 right-1 bg-white/90 text-slate-700 font-mono text-[9px] px-1 rounded border border-slate-200">Inox SUS304</span>
+</div>
+<h3 class="text-sm font-bold text-slate-900 group-hover:text-[#1966b8] line-clamp-2 leading-snug mb-2">
+              Bản Lề Sàn Thủy Lực Chịu Tải Trọng 150kg Nắp Inox SUS304 C83-FS150
+            </h3>
+<div class="flex flex-wrap gap-1 mb-3">
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">500.000 chu kỳ</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Góc mở 90°/115°</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Van chống cháy nổ dầu</span>
+</div>
+<div class="bg-slate-50 rounded p-2 text-[11px] font-mono border border-slate-100 space-y-1 text-slate-700">
+<div class="flex justify-between">
+<span class="text-slate-500">Tải trọng cánh tối đa:</span>
+<span class="font-bold text-slate-900">150 kg</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Khổ rộng cửa tối đa:</span>
+<span class="font-bold text-slate-900">1250 mm</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Dầu thủy lực chuẩn:</span>
+<span class="font-bold text-slate-900">-40°C đến +50°C</span>
+</div>
+</div>
+</div>
+<div class="p-3.5 bg-slate-50/70 border-t border-slate-100">
+<div class="flex items-baseline justify-between mb-2.5">
+<div>
+<span class="text-[10px] text-slate-500 block uppercase">Đơn giá niêm yết:</span>
+<span class="text-base font-black text-slate-900 font-mono">3.890.000&nbsp;₫</span>
+<span class="text-[10px] text-slate-500">/ Bộ hoàn chỉnh</span>
+</div>
+<span class="text-[10px] text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded font-medium border border-blue-100">BH 36 Tháng</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<button class="py-2 px-2 rounded bg-[#1966b8] hover:bg-[#14508f] text-white text-xs font-bold flex items-center justify-center gap-1 transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[15px]">add_shopping_cart</span>
+<span>Thêm giỏ</span>
+</button>
+<button class="py-2 px-2 rounded bg-[#fdb913] hover:bg-[#e5a60e] text-[#111a36] text-xs font-bold flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[15px]">science</span>
+<span>Lấy mẫu / RFQ</span>
+</button>
+</div>
+</div>
+</article>
+<!-- SPEC CARD 5: Chân nhện Spider 4 Chấu Inox 316 -->
+<article class="bg-white rounded border border-slate-200 hover:border-[#1966b8] hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+<div class="p-3.5">
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="font-mono text-[11px] font-bold text-[#1966b8] bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200">SKU: C83-SP4C</span>
+<span class="text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider bg-emerald-100 text-emerald-800">Sẵn kho: 1.800 cái</span>
+</div>
+<div class="relative w-full h-36 bg-slate-50 rounded border border-slate-100 overflow-hidden flex items-center justify-center p-2 mb-3">
+<img alt="Chân nhện đỡ kính Spider 4 chấu Inox 316 C83" class="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNzPsJBX1HtF6twahipQALBiQXj-v3cnaC1bvdM4gEQwP7G7eqpEBD2L9nAu89Z3kH5gyVV87RbVfCd3fLWstAAuDdPszboY_U0HGF5F_ZDCc0wig-rrJDfKgvpGq5T3sRj9fy4oT-QZXi8jNEo7czR_w0J363CF2jZgPa1IXSqOgtxzmQr8NAr58kM37IMOkPHbosLccFcoGA7RmcIdvYgh3jnt49ExFGzeyhV0Zg"/>
+<span class="absolute bottom-1 left-1 bg-slate-800/80 text-white font-mono text-[9px] px-1 rounded">Tâm lỗ: 220mm</span>
+<span class="absolute top-1 right-1 bg-white/90 text-slate-700 font-mono text-[9px] px-1 rounded border border-slate-200">Đúc SUS316</span>
+</div>
+<h3 class="text-sm font-bold text-slate-900 group-hover:text-[#1966b8] line-clamp-2 leading-snug mb-2">
+              Chân Nhện Đỡ Kính Mặt Dựng Spider 4 Chấu Inox Đúc 316 Chống Muối Biển
+            </h3>
+<div class="flex flex-wrap gap-1 mb-3">
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">SUS316 Nguyên Khối</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Tải trọng &gt;6500N</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Quatest 3 Kiểm định</span>
+</div>
+<div class="bg-slate-50 rounded p-2 text-[11px] font-mono border border-slate-100 space-y-1 text-slate-700">
+<div class="flex justify-between">
+<span class="text-slate-500">Vật liệu chính:</span>
+<span class="font-bold text-slate-900">Inox SUS 316 ASTM A276</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Đường kính chấu:</span>
+<span class="font-bold text-slate-900">Phi 45 mm</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Khả năng chịu gió:</span>
+<span class="font-bold text-slate-900">Vùng áp lực gió cấp 14</span>
+</div>
+</div>
+</div>
+<div class="p-3.5 bg-slate-50/70 border-t border-slate-100">
+<div class="flex items-baseline justify-between mb-2.5">
+<div>
+<span class="text-[10px] text-slate-500 block uppercase">Đơn giá niêm yết:</span>
+<span class="text-base font-black text-slate-900 font-mono">820.000&nbsp;₫</span>
+<span class="text-[10px] text-slate-500">/ Cái (Kèm củ ren)</span>
+</div>
+<span class="text-[10px] text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded font-medium border border-emerald-100">Chuẩn ven biển</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<button class="py-2 px-2 rounded bg-[#1966b8] hover:bg-[#14508f] text-white text-xs font-bold flex items-center justify-center gap-1 transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[15px]">add_shopping_cart</span>
+<span>Thêm giỏ</span>
+</button>
+<button class="py-2 px-2 rounded bg-[#fdb913] hover:bg-[#e5a60e] text-[#111a36] text-xs font-bold flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[15px]">science</span>
+<span>Lấy mẫu / RFQ</span>
+</button>
+</div>
+</div>
+</article>
+<!-- SPEC CARD 6: Keo Kết Cấu Silicone C83-Dowsil 983 -->
+<article class="bg-white rounded border border-slate-200 hover:border-[#1966b8] hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+<div class="p-3.5">
+<div class="flex items-center justify-between gap-1 mb-2">
+<span class="font-mono text-[11px] font-bold text-[#1966b8] bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200">SKU: SIL-DOW983</span>
+<span class="text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider bg-emerald-100 text-emerald-800">Sẵn kho: 2.400 Thùng</span>
+</div>
+<div class="relative w-full h-36 bg-slate-50 rounded border border-slate-100 overflow-hidden flex items-center justify-center p-2 mb-3">
+<img alt="Keo kết cấu Silicone Dowsil 983 2 thành phần C83 phân phối" class="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA37xzgKRqp0g7VZVRzk3qc-WqHkJ0XBffY91t9QN7NBvFwOqojv8_OG3OzJ4NO3Ot1khl_i4Uf6l4LgZUB8mQm5MhyPOtEmtQaVGjaZCCa9IEm1W2k4C5xQ97iGD7iptP99L3ZzfOAIg0rc25ZnD6BkTXaXZcJON1YL5jDFNVD7z2c6dCn526N88UliuiPF3ZSk9HFXrLV9pIsSXbt3sheh_CrpfPCYQLQwxPAcSOd"/>
+<span class="absolute bottom-1 left-1 bg-slate-800/80 text-white font-mono text-[9px] px-1 rounded">2 Thành Phần (Base+Cat)</span>
+<span class="absolute top-1 right-1 bg-white/90 text-slate-700 font-mono text-[9px] px-1 rounded border border-slate-200">ASTM C1184</span>
+</div>
+<h3 class="text-sm font-bold text-slate-900 group-hover:text-[#1966b8] line-clamp-2 leading-snug mb-2">
+              Keo Kết Cấu Silicone 2 Thành Phần Mặt Dựng Kính Dowsil 983 Structural Glazing
+            </h3>
+<div class="flex flex-wrap gap-1 mb-3">
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Đóng rắn sâu 15-30p</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Bảo hành 20 năm</span>
+<span class="text-[10px] font-mono bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">Chịu UV tuyệt đối</span>
+</div>
+<div class="bg-slate-50 rounded p-2 text-[11px] font-mono border border-slate-100 space-y-1 text-slate-700">
+<div class="flex justify-between">
+<span class="text-slate-500">Quy cách đóng gói:</span>
+<span class="font-bold text-slate-900">Phuy 250kg + Thùng 19L</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Độ giãn dài tới hạn:</span>
+<span class="font-bold text-slate-900">&gt; 180%</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-500">Ứng suất kéo xé:</span>
+<span class="font-bold text-slate-900">1.3 MPa</span>
+</div>
+</div>
+</div>
+<div class="p-3.5 bg-slate-50/70 border-t border-slate-100">
+<div class="flex items-baseline justify-between mb-2.5">
+<div>
+<span class="text-[10px] text-slate-500 block uppercase">Chính sách giá đại lý:</span>
+<span class="text-base font-black text-slate-900 font-mono">Báo giá theo BOQ</span>
+</div>
+<span class="text-[10px] text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded font-medium border border-blue-100">Chứng thư Dow Mỹ</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<button class="py-2 px-2 rounded border border-[#1966b8] text-[#1966b8] hover:bg-blue-50 text-xs font-bold flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[15px]">request_quote</span>
+<span>Yêu cầu giá</span>
+</button>
+<button class="py-2 px-2 rounded bg-[#fdb913] hover:bg-[#e5a60e] text-[#111a36] text-xs font-bold flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[15px]">science</span>
+<span>Lấy mẫu / RFQ</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+<!-- QUICK COMPARE / MATRIX TABLE FOR ESTIMATION ENGINEERS -->
+<section class="bg-white rounded border border-slate-200 shadow-sm overflow-hidden mt-2" id="quick-matrix">
+<div class="p-4 bg-slate-900 text-white flex flex-col md:flex-row md:items-center justify-between gap-3">
+<div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 bg-[#fdb913] text-[#111a36] text-[10px] font-black uppercase rounded">Bảng Thông Số Đối Soánh (Spec Matrix)</span>
+<span class="text-xs text-slate-400 font-mono">Dành cho kỹ sư dự toán &amp; giám sát vật tư</span>
+</div>
+<h3 class="text-base font-bold text-white mt-1">Bảng Tra Nhanh 4 Mã Nhôm Mặt Dựng Bán Chạy Nhất Quý 2/2025</h3>
+</div>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs text-slate-200 font-semibold rounded border border-slate-700 transition-colors shrink-0" type="button">
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+<span>Xuất Excel Tra Cứu (.xlsx)</span>
+</button>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left text-xs font-mono border-collapse">
+<thead>
+<tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
+<th class="p-3 font-bold uppercase tracking-wider">Mã Profile (SKU)</th>
+<th class="p-3 font-bold uppercase tracking-wider">Kích Thước Tiết Diện</th>
+<th class="p-3 font-bold uppercase tracking-wider">Mác Hợp Kim</th>
+<th class="p-3 font-bold uppercase tracking-wider">Độ Dày Thành</th>
+<th class="p-3 font-bold uppercase tracking-wider">Khối Lượng</th>
+<th class="p-3 font-bold uppercase tracking-wider">Xử Lý Bề Mặt</th>
+<th class="p-3 font-bold uppercase tracking-wider">Đơn Giá Dự Toán</th>
+<th class="p-3 font-bold uppercase tracking-wider text-center">Hành Động</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-200 text-slate-800">
+<tr class="hover:bg-blue-50/50 transition-colors">
+<td class="p-3 font-bold text-[#1966b8] whitespace-nowrap">
+                  C83-CW140M
+                  <span class="block text-[10px] text-slate-400 font-normal">Đố đứng chịu lực</span>
+</td>
+<td class="p-3 whitespace-nowrap">140 x 55 mm</td>
+<td class="p-3 whitespace-nowrap"><span class="px-1.5 py-0.5 bg-slate-200 rounded font-semibold text-slate-700">6063-T6</span></td>
+<td class="p-3 whitespace-nowrap">2.5 mm</td>
+<td class="p-3 whitespace-nowrap">2.68 kg/m</td>
+<td class="p-3 whitespace-nowrap">Anodized ED 20μm</td>
+<td class="p-3 whitespace-nowrap font-bold text-slate-900">1.340.000&nbsp;₫/Cây</td>
+<td class="p-3 text-center whitespace-nowrap">
+<button class="px-2 py-1 bg-[#1966b8] hover:bg-[#14508f] text-white text-[11px] rounded font-semibold transition-colors" type="button">Thêm BOQ</button>
+</td>
+</tr>
+<tr class="hover:bg-blue-50/50 transition-colors">
+<td class="p-3 font-bold text-[#1966b8] whitespace-nowrap">
+                  C83-CW100T
+                  <span class="block text-[10px] text-slate-400 font-normal">Đố ngang liên kết</span>
+</td>
+<td class="p-3 whitespace-nowrap">100 x 55 mm</td>
+<td class="p-3 whitespace-nowrap"><span class="px-1.5 py-0.5 bg-slate-200 rounded font-semibold text-slate-700">6063-T5</span></td>
+<td class="p-3 whitespace-nowrap">2.0 mm</td>
+<td class="p-3 whitespace-nowrap">1.85 kg/m</td>
+<td class="p-3 whitespace-nowrap">Sơn PVDF 3 coats</td>
+<td class="p-3 whitespace-nowrap font-bold text-slate-900">965.000&nbsp;₫/Cây</td>
+<td class="p-3 text-center whitespace-nowrap">
+<button class="px-2 py-1 bg-[#1966b8] hover:bg-[#14508f] text-white text-[11px] rounded font-semibold transition-colors" type="button">Thêm BOQ</button>
+</td>
+</tr>
+<tr class="hover:bg-blue-50/50 transition-colors">
+<td class="p-3 font-bold text-[#1966b8] whitespace-nowrap">
+                  C83-AF200
+                  <span class="block text-[10px] text-slate-400 font-normal">Lam chắn nắng</span>
+</td>
+<td class="p-3 whitespace-nowrap">200 x 38 mm</td>
+<td class="p-3 whitespace-nowrap"><span class="px-1.5 py-0.5 bg-slate-200 rounded font-semibold text-slate-700">6063-T5</span></td>
+<td class="p-3 whitespace-nowrap">1.8 mm</td>
+<td class="p-3 whitespace-nowrap">2.14 kg/m</td>
+<td class="p-3 whitespace-nowrap">PVDF Metallic Grey</td>
+<td class="p-3 whitespace-nowrap font-bold text-slate-900">1.180.000&nbsp;₫/Cây</td>
+<td class="p-3 text-center whitespace-nowrap">
+<button class="px-2 py-1 bg-[#1966b8] hover:bg-[#14508f] text-white text-[11px] rounded font-semibold transition-colors" type="button">Thêm BOQ</button>
+</td>
+</tr>
+<tr class="hover:bg-blue-50/50 transition-colors">
+<td class="p-3 font-bold text-[#1966b8] whitespace-nowrap">
+                  C83-CP55
+                  <span class="block text-[10px] text-slate-400 font-normal">Nẹp ốp trang trí ngoài</span>
+</td>
+<td class="p-3 whitespace-nowrap">55 x 22 mm</td>
+<td class="p-3 whitespace-nowrap"><span class="px-1.5 py-0.5 bg-slate-200 rounded font-semibold text-slate-700">6063-T5</span></td>
+<td class="p-3 whitespace-nowrap">1.4 mm</td>
+<td class="p-3 whitespace-nowrap">0.68 kg/m</td>
+<td class="p-3 whitespace-nowrap">Anodized Gold 25μm</td>
+<td class="p-3 whitespace-nowrap font-bold text-slate-900">385.000&nbsp;₫/Cây</td>
+<td class="p-3 text-center whitespace-nowrap">
+<button class="px-2 py-1 bg-[#1966b8] hover:bg-[#14508f] text-white text-[11px] rounded font-semibold transition-colors" type="button">Thêm BOQ</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- B2B INDUSTRIAL PAGINATION BAR -->
+<div class="bg-white rounded border border-slate-200 p-3 shadow-sm flex flex-col md:flex-row items-center justify-between gap-3 text-xs font-mono">
+<!-- Records Counter & Page Jump -->
+<div class="flex items-center gap-3 text-slate-600">
+<span>Hiển thị <strong>6</strong> profile / trang (Tổng <strong>142</strong> mã)</span>
+<span class="text-slate-300">|</span>
+<div class="flex items-center gap-1.5">
+<span>Đến trang:</span>
+<input class="w-12 h-8 text-center bg-slate-50 border border-slate-300 rounded font-bold text-slate-900 focus:outline-none focus:border-[#1966b8] text-xs" max="24" min="1" type="number" value="1"/>
+<button class="px-2 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded font-semibold transition-colors" type="button">Đi</button>
+</div>
+</div>
+<!-- Navigation Buttons -->
+<div class="flex items-center gap-1">
+<button class="w-8 h-8 rounded border border-slate-200 text-slate-400 flex items-center justify-center cursor-not-allowed" disabled="" type="button">
+<span class="material-symbols-outlined text-[18px]">first_page</span>
+</button>
+<button class="w-8 h-8 rounded border border-slate-200 text-slate-400 flex items-center justify-center cursor-not-allowed" disabled="" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="w-8 h-8 rounded bg-[#1966b8] text-white font-bold flex items-center justify-center shadow-sm" type="button">1</button>
+<button class="w-8 h-8 rounded border border-slate-200 text-slate-700 hover:bg-slate-100 flex items-center justify-center transition-colors" type="button">2</button>
+<button class="w-8 h-8 rounded border border-slate-200 text-slate-700 hover:bg-slate-100 flex items-center justify-center transition-colors" type="button">3</button>
+<span class="w-6 text-center text-slate-400">...</span>
+<button class="w-8 h-8 rounded border border-slate-200 text-slate-700 hover:bg-slate-100 flex items-center justify-center transition-colors" type="button">24</button>
+<button class="w-8 h-8 rounded border border-slate-200 text-slate-700 hover:bg-slate-100 flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+<button class="w-8 h-8 rounded border border-slate-200 text-slate-700 hover:bg-slate-100 flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">last_page</span>
+</button>
+</div>
+</div>
+<!-- CONTRACTOR SAMPLE PROCUREMENT CALLOUT (NO FOOTER) -->
+<div class="bg-gradient-to-r from-[#1b253b] via-[#1966b8] to-[#1b253b] rounded p-5 text-white flex flex-col md:flex-row items-center justify-between gap-4 border border-slate-700 shadow-md">
+<div class="flex items-start gap-3">
+<div class="w-10 h-10 rounded bg-[#fdb913] text-[#111a36] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">inventory</span>
+</div>
+<div>
+<h4 class="text-sm font-black uppercase text-white tracking-wide">Quy trình cấp mẫu thử Profile &amp; Catalogue Kỹ thuật 2025</h4>
+<p class="text-xs text-slate-200 leading-relaxed mt-0.5">
+              C83 hỗ trợ gửi hộp vali mẫu nhôm cắt thực tế (Corner Sample 100mm) kèm hồ sơ kết quả kiểm nghiệm Quatest cho tư vấn giám sát trong vòng 24h.
+            </p>
+</div>
+</div>
+<div class="flex items-center gap-2.5 shrink-0">
+<button class="px-4 py-2.5 bg-[#fdb913] hover:bg-[#e5a60e] text-[#111a36] text-xs font-bold uppercase rounded tracking-wider shadow transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">local_shipping</span>
+<span>Đăng ký nhận hộp mẫu</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><!-- ===== C83 GROUP FOOTER (chèn từ c83group.vn) ===== -->
+<footer class="c83-foot c83-site-footer" style="font-family:'Be Vietnam Pro',Arial,Helvetica,sans-serif;background:#0E1433;color:rgba(255,255,255,0.85)">
+<div style="background:linear-gradient(135deg,#1966B8 0%,#222A8C 100%)">
+<div style="max-width:1320px;margin:0 auto;padding:40px 24px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between">
+<div style="flex:1 1 520px;min-width:0">
+<h3 style="margin:0;font-size:30px;font-weight:900;color:#FFFFFF">Sẵn sàng hợp tác cùng C83 Group?</h3>
+<p style="margin:8px 0 0;color:rgba(255,255,255,0.85)">Đội ngũ chuyên gia của chúng tôi luôn sẵn sàng tư vấn giải pháp trọn gói cho dự án của bạn.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<a href="#" style="display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:8px;background:linear-gradient(135deg,#FDB913 0%,#F39C12 100%);color:#141A3A;font-weight:700;text-decoration:none;box-shadow:0 12px 30px -12px rgba(243,156,18,0.6)">Gửi yêu cầu tư vấn</a>
+<a href="tel:1900633483" style="display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 24px;border-radius:8px;border:2px solid rgba(255,255,255,0.4);color:#FFFFFF;font-weight:700;text-decoration:none"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>1900 633 483</a>
+</div>
+</div>
+</div>
+<div style="max-width:1320px;margin:0 auto;padding:56px 24px;display:flex;flex-wrap:wrap;gap:40px">
+<div style="flex:1.4 1 300px;min-width:0">
+<img src="../assets/c83-logo.png" alt="C83 Group" style="height:56px;width:auto;display:block;filter:brightness(0) invert(1)">
+<p style="margin:20px 0 0;font-size:14px;line-height:1.7;color:rgba(255,255,255,0.7)">Hệ sinh thái 10 công ty thành viên kiến tạo giá trị toàn diện — từ vật liệu, công nghệ đến thi công công trình quy mô lớn.</p>
+<ul style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li style="display:flex;gap:10px;align-items:flex-start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FDB913" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;margin-top:2px"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>L8-122 Khu đô thị Louis, Phường Hoàng Mai, TP Hà Nội, Việt Nam</li>
+<li style="display:flex;gap:10px;align-items:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FDB913" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>Hotline: 1900 633 483</li>
+<li style="display:flex;gap:10px;align-items:center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FDB913" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>info@c83group.vn</li>
+</ul>
+</div>
+<div style="flex:1 1 180px;min-width:0">
+<h4 style="margin:0 0 16px;font-size:13px;font-weight:900;letter-spacing:0.15em;text-transform:uppercase;color:#FFFFFF"><span style="border-bottom:2px solid #FDB913;padding-bottom:4px">Về C83 Group</span></h4>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Tổng quan tập đoàn</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Tầm nhìn – Sứ mệnh</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">HĐQT & Ban điều hành</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Lịch sử hình thành</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Trách nhiệm xã hội</a></li>
+</ul>
+</div>
+<div style="flex:1 1 180px;min-width:0">
+<h4 style="margin:0 0 16px;font-size:13px;font-weight:900;letter-spacing:0.15em;text-transform:uppercase;color:#FFFFFF"><span style="border-bottom:2px solid #FDB913;padding-bottom:4px">Hệ sinh thái</span></h4>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Công ty thành viên</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Sơ đồ hệ sinh thái</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Lĩnh vực hoạt động</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Dự án tiêu biểu</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Đối tác chiến lược</a></li>
+</ul>
+</div>
+<div style="flex:1 1 180px;min-width:0">
+<h4 style="margin:0 0 16px;font-size:13px;font-weight:900;letter-spacing:0.15em;text-transform:uppercase;color:#FFFFFF"><span style="border-bottom:2px solid #FDB913;padding-bottom:4px">Phát triển</span></h4>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:14px">
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Chiến lược ESG</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Văn hóa doanh nghiệp</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Hoạt động cộng đồng</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Báo cáo bền vững</a></li>
+<li><a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none">Tuyển dụng</a></li>
+</ul>
+</div>
+</div>
+<div style="border-top:1px solid rgba(255,255,255,0.1)">
+<div style="max-width:1320px;margin:0 auto;padding:20px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;font-size:12px;color:rgba(255,255,255,0.6)">
+<span>&copy; 2026 C83 Group. All rights reserved.</span>
+<div style="display:flex;gap:20px">
+<a href="#" style="color:rgba(255,255,255,0.6);text-decoration:none">Chính sách bảo mật</a>
+<a href="#" style="color:rgba(255,255,255,0.6);text-decoration:none">Điều khoản sử dụng</a>
+<a href="#" style="color:rgba(255,255,255,0.6);text-decoration:none">Sitemap</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- ===== /C83 GROUP FOOTER ===== -->
+</body></html>

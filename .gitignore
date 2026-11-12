@@ -1,0 +1,4 @@
+# bỏ file nguồn thiết kế gốc nếu lỡ copy vào
+*.zip
+.DS_Store
+Thumbs.db
