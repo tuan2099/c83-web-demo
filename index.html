@@ -11,19 +11,26 @@
 *{box-sizing:border-box}
 body{margin:0;font-family:'Be Vietnam Pro',Arial,sans-serif;color:var(--ink);background:var(--bg)}
 a{text-decoration:none;color:inherit}
-.hero{background:linear-gradient(135deg,var(--blue) 0%,var(--navy) 100%);color:#fff;padding:56px 24px 72px}
+.hero{background:linear-gradient(135deg,var(--blue) 0%,var(--navy) 100%);color:#fff;padding:56px 24px 64px}
 .wrap{max-width:1200px;margin:0 auto}
 .eyebrow{font-size:12px;font-weight:800;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px}
 .eyebrow::before{content:"";width:28px;height:2px;background:var(--gold)}
 .hero h1{margin:14px 0 10px;font-size:40px;font-weight:900;line-height:1.1}
-.hero p{margin:0;max-width:720px;font-size:16px;line-height:1.7;color:rgba(255,255,255,.85)}
-.grid{max-width:1200px;margin:-44px auto 64px;padding:0 24px;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
-.card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 10px 30px -14px rgba(25,102,184,.25);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
+.hero p{margin:0;max-width:760px;font-size:16px;line-height:1.7;color:rgba(255,255,255,.85)}
+main{max-width:1200px;margin:40px auto 72px;padding:0 24px}
+.group{margin-bottom:40px}
+.ghead{display:flex;align-items:center;gap:12px;margin:0 0 16px}
+.gnum{flex:none;width:34px;height:34px;border-radius:9px;background:var(--navy);color:#fff;display:grid;place-items:center;font-weight:900;font-size:15px}
+.gtitle{font-size:20px;font-weight:900}
+.gdesc{font-size:13px;color:var(--muted);margin-top:2px}
+.pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 10px 30px -14px rgba(25,102,184,.22);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
 .card:hover{transform:translateY(-4px);box-shadow:0 22px 46px -16px rgba(25,102,184,.4)}
+.thumbwrap{position:relative}
 .thumb{aspect-ratio:16/10;width:100%;object-fit:cover;object-position:top;background:#dfe6ef;border-bottom:1px solid var(--line);display:block}
-.body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
-.num{font-size:12px;font-weight:800;color:var(--blue)}
-.ttl{font-size:16px;font-weight:800;line-height:1.3}
+.badge{position:absolute;top:12px;left:12px;background:linear-gradient(135deg,var(--gold),#F39C12);color:#141A3A;font-size:12px;font-weight:800;padding:5px 12px;border-radius:999px;box-shadow:0 6px 16px -6px rgba(243,156,18,.6)}
+.body{padding:15px 18px 18px;display:flex;flex-direction:column;gap:5px;flex:1}
+.ttl{font-size:15px;font-weight:800;line-height:1.3}
 .desc{font-size:13px;color:var(--muted);line-height:1.5;flex:1}
 .open{margin-top:8px;align-self:flex-start;font-size:13px;font-weight:800;color:var(--blue)}
 .foot{text-align:center;color:var(--muted);font-size:13px;padding:0 24px 48px}
@@ -34,40 +41,59 @@ a{text-decoration:none;color:inherit}
 <header class="hero">
 <div class="wrap">
 <div class="eyebrow">C83 Group · Bộ giao diện website</div>
-<h1>Catalog & Hệ thống B2B — Demo giao diện</h1>
-<p>Tổng hợp 14 màn hình thiết kế cho website C83 Materials JSC / C83 Group: catalog vật tư, hồ sơ năng lực, đấu thầu – báo giá, giỏ hàng và cổng đối tác. Bấm vào từng thẻ để xem chi tiết.</p>
+<h1>Chọn phương án giao diện</h1>
+<p>Mỗi chức năng được thiết kế thành <b>2 phương án</b> để Quý khách so sánh và lựa chọn. Bấm vào từng thẻ để xem giao diện đầy đủ, rồi cho biết phương án ưng ý ở mỗi nhóm.</p>
 </div>
 </header>
-<main class="grid" id="grid"></main>
-<div class="foot">© 2026 C83 Group — Bản demo giao diện phục vụ trình bày.</div>
+<main id="groups"></main>
+<div class="foot">© 2026 C83 Group — Bản demo giao diện phục vụ trình bày &amp; lựa chọn phương án.</div>
 <script>
-const pages=[
- ["01","Catalog Sản phẩm & Giải pháp","Trang danh mục vật tư với bộ lọc kỹ thuật, lưới sản phẩm và phân trang."],
- ["02","Bóc tách khối lượng (BOQ)","Form đề nghị báo giá, bóc tách danh mục vật tư & profile theo dự án."],
- ["03","Hồ sơ thầu — Đệ trình báo giá","Quy trình nhiều bước xác thực pháp nhân nhà thầu và cấu hình tiến độ."],
- ["04","Đặt mua & Thanh toán (PO)","Giỏ vật tư, quyết toán hợp đồng và xác nhận đặt hàng theo PO."],
- ["05","Dashboard đối tác B2B","Bảng điều khiển tổng quan: vật tư, RFQ, vận chuyển, tín dụng B2B."],
- ["06","Hồ sơ năng lực C83 Materials","Trang năng lực sản xuất nhôm, dây chuyền, sản phẩm chủ lực."],
- ["07","Chi tiết sản phẩm (AL902)","Trang chi tiết thanh nhôm định hình: thông số, gallery, chế độ mua."],
- ["08","Giỏ yêu cầu báo giá","Tổng hợp danh mục vật tư gửi yêu cầu báo giá dự án."],
- ["09","Xác nhận & Gửi hồ sơ","Màn xác nhận thông tin pháp nhân và gửi hồ sơ báo giá."],
- ["10","Giỏ hàng & Đặt hàng trực tiếp","Giỏ hàng, thông tin giao hàng, xuất hóa đơn VAT & thanh toán."],
- ["11","Tài khoản đối tác","Cổng tài khoản nhà thầu: tiến độ báo giá, đơn hàng, chiết khấu."],
- ["12","Landing C83 Materials JSC","Trang giới thiệu đơn vị: dự án tiêu biểu, chứng nhận, năng lực."],
- ["13","Danh mục Profile công nghiệp","Catalog profile nhôm công nghiệp với bộ lọc spec kỹ thuật."],
- ["14","Chi tiết kỹ thuật sản phẩm","Trang chi tiết mặt cắt CAD, bảng chỉ số cơ lý, dự toán khối lượng."]
+// [groupTitle, groupDesc, [ [page, tenPhuongAn, moTa], ... ]]
+const groups=[
+ ["Danh mục sản phẩm (Catalog)","Trang liệt kê vật tư có bộ lọc kỹ thuật và lưới sản phẩm.",[
+   ["01","Lọc đa lĩnh vực + lưới sản phẩm","Sidebar lọc theo lĩnh vực/đơn vị/chứng nhận, lưới card 3 cột, phân trang."],
+   ["13","Catalog profile công nghiệp","Phong cách kỹ thuật: lọc theo spec, mác nhôm, tab phân loại profile."]]],
+ ["Chi tiết sản phẩm","Trang thông tin chi tiết một sản phẩm/vật tư.",[
+   ["07","Gallery + thông số + 2 chế độ mua","Ảnh lớn, thông số nhanh, chế độ Thương mại / RFQ, sản phẩm liên quan."],
+   ["14","Mặt cắt CAD + dashboard kỹ thuật","Bản vẽ CAD 2D, bảng chỉ số cơ lý, dự toán khối lượng theo cây."]]],
+ ["Hồ sơ năng lực đơn vị","Trang giới thiệu năng lực C83 Materials JSC.",[
+   ["12","Landing giới thiệu + dự án + chứng nhận","Bố cục sáng, dự án tiêu biểu, chứng nhận & giải thưởng."],
+   ["06","Hồ sơ năng lực sản xuất chi tiết","Dây chuyền, thông số máy móc, sản phẩm chủ lực dạng kỹ thuật."]]],
+ ["Giỏ hàng & Đặt mua","Trang đặt hàng / thanh toán vật tư.",[
+   ["10","Giỏ hàng + giao hàng + VAT","Giỏ, thông tin giao nhận, xuất hóa đơn VAT, nhiều phương thức thanh toán."],
+   ["04","Quyết toán theo đơn PO","Đặt mua trực tiếp, quyết toán hợp đồng, chiết khấu đối tác VIP."]]],
+ ["Cổng tài khoản B2B","Trang quản lý tài khoản / cổng đối tác.",[
+   ["11","Tài khoản đối tác (thẻ chỉ số)","Thẻ KPI: yêu cầu, báo giá, đơn hàng, chiết khấu + danh sách RFQ."],
+   ["05","Dashboard điều hành B2B","Bảng điều khiển đậm chất ERP: vật tư, RFQ, vận chuyển, tín dụng."]]],
+ ["Yêu cầu báo giá (RFQ)","Trang lập danh mục vật tư gửi yêu cầu báo giá.",[
+   ["08","Giỏ yêu cầu báo giá","Tổng hợp danh mục vật tư, gửi RFQ dự án, tóm tắt hồ sơ."],
+   ["02","Bóc tách khối lượng (BOQ)","Bảng bóc tách chi tiết theo mã hàng, quy cách, khối lượng, gia công."]]],
+ ["Đệ trình hồ sơ thầu","Trang gửi/xác nhận hồ sơ báo giá dự án.",[
+   ["03","Quy trình nhiều bước","Các bước: kiểm tra BOQ → pháp nhân nhà thầu → giao nhận & cam kết."],
+   ["09","Xác nhận & gửi hồ sơ","Màn xác nhận thông tin pháp nhân và gửi hồ sơ báo giá."]]]
 ];
-const g=document.getElementById('grid');
-g.innerHTML=pages.map(([n,t,d])=>`
- <a class="card" href="trang_${n}/code.html">
-   <img class="thumb" loading="lazy" src="trang_${n}/screen.png" alt="Ảnh trang ${n}">
-   <div class="body">
-     <span class="num">TRANG ${n}</span>
-     <span class="ttl">${t}</span>
-     <span class="desc">${d}</span>
-     <span class="open">Xem giao diện →</span>
-   </div>
- </a>`).join('');
+const el=document.getElementById('groups');
+el.innerHTML=groups.map((g,gi)=>{
+  const [title,desc,pages]=g;
+  const cards=pages.map(([n,pa,d],pi)=>`
+    <a class="card" href="trang_${n}/code.html">
+      <div class="thumbwrap">
+        <img class="thumb" loading="lazy" src="trang_${n}/screen.png" alt="Phương án ${pi+1} - ${title}">
+        <span class="badge">Phương án ${pi+1}</span>
+      </div>
+      <div class="body">
+        <span class="ttl">${pa}</span>
+        <span class="desc">${d}</span>
+        <span class="open">Xem giao diện →</span>
+      </div>
+    </a>`).join('');
+  return `<section class="group">
+    <div class="ghead"><div class="gnum">${gi+1}</div>
+      <div><div class="gtitle">${title}</div><div class="gdesc">${desc}</div></div>
+    </div>
+    <div class="pair">${cards}</div>
+  </section>`;
+}).join('');
 </script>
 </body>
 </html>
